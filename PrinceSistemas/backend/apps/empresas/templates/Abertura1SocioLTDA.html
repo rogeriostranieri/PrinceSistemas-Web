@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Contrato Social - {{ razao_social }}</title>
+  <style>
+    @page {
+      size: A4;
+      margin-top: 4.5cm; /* Espaço para o cabeçalho */
+      margin-bottom: 4.25cm;
+      margin-left: 3cm;
+      margin-right: 3cm;
+      @top-center {
+        content: element(header);
+      }
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 12pt;
+      color: #000;
+      line-height: 1.7;
+      text-align: justify;
+      margin: 0;
+    }
+    
+    /* O cabeçalho fixo que aparece em todas as páginas */
+    #header {
+      position: running(header);
+      text-align: center;
+      margin-top: 1.27cm;
+      height: 3cm;
+    }
+    
+    .linha {
+      border-bottom: 1.5px solid #000;
+      width: 100%;
+      margin: 0.5cm auto 0.2cm auto;
+    }
+    
+    .numero-pagina {
+      font-size: 10pt;
+      margin-top: 0.3cm;
+    }
+    
+    /* Recuo de parágrafo para as cláusulas (como no Word) */
+    [class^='clausula'] {
+      text-indent: 1.25cm; /* Recuo padrão do Word */
+      margin-bottom: 7pt;
+    }
+    
+    /* Formato especial para os números das cláusulas */
+    .clausula-titulo {
+      font-weight: bold;
+      margin-right: 5pt;
+    }
+    
+    .paragrafo {
+      margin-left: 1.25cm;
+      margin-bottom: 7pt;
+    }
+    
+    .assinatura {
+      margin-top: 60pt;
+      text-align: center;
+    }
+    
+    .cidade-data {
+      margin-top: 40pt;
+      text-align: right;
+    }
+    
+    .assinatura-nome {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho fixo em todas as páginas -->
+  <div id="header">
+    <div style="font-size:15pt; font-weight:bold; letter-spacing:0.5px;">{{ razao_social }}</div>
+    <div style="font-size:13pt; font-weight:bold; margin-top:5pt;">CONTRATO SOCIAL</div>
+    <div class="linha"></div>
+    <div class="numero-pagina">Página <span class="page-number"></span></div>
+  </div>
+
+  <!-- Conteúdo que flui abaixo do cabeçalho -->
+  <p>{{ socio_texto_principal }} Constitui uma sociedade limitada, mediante as seguintes cláusulas:</p>
+
+  <div class="clausula-1"><span class="clausula-titulo">CLÁUSULA PRIMEIRA:</span> A sociedade girará sob o nome empresarial <b>{{ razao_social }}</b> e terá sede e domicílio na {{ endereco_empresa }}.</div>
+  
+  <div class="clausula-2"><span class="clausula-titulo">CLÁUSULA SEGUNDA:</span> A sociedade iniciará suas atividades em {{ data_inicio_atividade_extenso }} e seu prazo de duração é indeterminado.</div>
+  
+  <div class="clausula-3"><span class="clausula-titulo">CLÁUSULA TERCEIRA:</span> O objeto da sociedade será: {{ objeto_social }}.</div>
+  
+  <div class="clausula-4"><span class="clausula-titulo">CLÁUSULA QUARTA:</span> O capital social será R$ {{ capital_social }} ({{ capital_social_extenso }}) divididos em {{ quotas }} ({{ quotas_extenso }}) quotas de valor nominal R${{ valor_quota }} ({{ valor_quota_extenso }}), integralizadas, neste ato em moeda corrente do país, pelo sócio.</div>
+  
+  <div class="clausula-5"><span class="clausula-titulo">CLÁUSULA QUINTA:</span> As quotas são indivisíveis e não poderão ser cedidas ou transferidas a terceiros sem o consentimento do outro sócio, a quem fica assegurado, em igualdade de condições e preço direito de preferência para a sua aquisição se postas à venda, formalizando, se realizada a cessão delas, a alteração contratual pertinente.</div>
+  
+  <div class="clausula-6"><span class="clausula-titulo">CLÁUSULA SEXTA:</span> A responsabilidade de cada sócio é restrita ao valor de suas quotas, mas todos respondem solidariamente pela integralização do capital social.</div>
+  
+  <div class="clausula-7"><span class="clausula-titulo">CLÁUSULA SÉTIMA:</span> A administração da sociedade caberá à sócia <b>{{ nome_socio }}</b>, com os poderes e atribuições de ADMINISTRADORA, individualmente, autorizado o uso do nome empresarial, vedado, no entanto, em atividades estranhas ao interesse social ou assumir obrigações seja em favor de qualquer dos cotistas ou de terceiros, bem como onerar ou alienar bens imóveis da sociedade, sem autorização do outro sócio.</div>
+  
+  <div class="paragrafo"><b>§ 1º</b> - Faculta-se ao administrador, nos limites de seus poderes, constituir procuradores em nome da empresa, devendo ser especificado no instrumento de mandato, os atos e operações que poderão praticar e a duração do mandato, que no caso de mandado judicial, poderá ser por prazo indeterminado.</div>
+  
+  <div class="paragrafo"><b>§ 2º</b> - Poderão ser designados administradores não titular, na forma prevista no art.º 1.061 da lei 10.406/2002.</div>
+  
+  <div class="clausula-8"><span class="clausula-titulo">CLÁUSULA OITAVA:</span> A administradora declara, sob as penas da lei, de que não está impedida de exercer a administração da sociedade, por lei especial, ou em virtude de condenação criminal, ou se encontrar sob os efeitos dela, a pena que vede, ainda que temporariamente, o acesso a cargos públicos; ou por crime falimentar, de prevaricação, peita ou suborno, concussão peculato, ou contra a economia popular, contra o sistema financeiro nacional, contra normas de defesa da concorrência, contra as relações de consumo, fé pública, ou a propriedade.</div>
+  
+  <div class="clausula-9"><span class="clausula-titulo">CLÁUSULA NONA:</span> Ao término de cada exercício social, a administradora prestará contas justificadas de sua administração, procedendo à elaboração do inventário, do balanço patrimonial e do balanço de resultado econômico, cabendo aos sócios, na proporção de suas quotas, os lucros ou perdas apuradas.</div>
+  
+  <div class="paragrafo" style="margin-left:20pt;"><b>§ 1º</b> - Os lucros ou prejuízos apurados serão repartidos entre os sócios, na proporção de suas quotas, podendo os mesmos, todavia, optarem pela retenção parcial ou total dos lucros em conta de lucros acumulados, para ulterior distribuição ou capitalização, ou pela manutenção dos prejuízos em conta de prejuízos a compensar.</div>
+  
+  <div class="paragrafo" style="margin-left:20pt;"><b>§ 2º</b> - Os lucros apurados em balancetes intermediários poderão ser distribuídos aos sócios, sendo compensados com que houver sido apurado por ocasião do encerramento do exercício.</div>
+  
+  <div class="clausula-10"><span class="clausula-titulo">CLÁUSULA DÉCIMA:</span> Nos quatro meses seguintes ao término do exercício social, os sócios deliberarão sobre as contas e designarão administrador quando for o caso.</div>
+  
+  <div class="clausula-11"><span class="clausula-titulo">CLÁUSULA DÉCIMA PRIMEIRA:</span> A sociedade poderá a qualquer tempo, manter, transferir, extinguir filiais ou outra dependência, mediante alteração contratual assinada por todos os sócios.</div>
+  
+  <div class="clausula-12"><span class="clausula-titulo">CLÁUSULA DÉCIMA SEGUNDA:</span> A sócia poderá de comum acordo, fixar uma retirada mensal, a título de "pró-labore", observadas as disposições regulamentares pertinentes.</div>
+  
+  <div class="clausula-13"><span class="clausula-titulo">CLÁUSULA DÉCIMA TERCEIRA:</span> A sócia resolve de comum acordo dispensar a elaboração das atas de reunião de assembleia de sócios.</div>
+  
+  <div class="clausula-14"><span class="clausula-titulo">CLÁUSULA DÉCIMA QUARTA:</span> A sócia que desejar transferir suas quotas deverá notificar por escrito a sociedade, discriminando o preço, forma e prazo de pagamento, para que esta através dos sócios, exerça ou renuncie ao direito de preferência, o que deverá fazer dentro de 60 (sessenta) dias contados do recebimento da notificação, ou em maior prazo, a critério dos sócios alienantes. Decorrido este prazo sem que seja exercido o direito de preferência, as quotas poderão ser livremente transferidas.</div>
+  
+  <div class="clausula-15"><span class="clausula-titulo">CLÁUSULA DÉCIMA QUINTA:</span> Em suas deliberações, os sócios adotarão preferencialmente a forma estabelecida nos Parágrafos 2º e 3° do Artigo 1072, da Lei 10.406 de 10/01/2002.</div>
+  
+  <div class="clausula-16"><span class="clausula-titulo">CLÁUSULA DÉCIMA SEXTA:</span> As alterações societárias, cisão, fusão, incorporação e/ou transformação societária, obedecerão ao que prescreve o Art. nº 1053, Parágrafo Único da Lei 10.406 de 10/01/2002.</div>
+  
+  <div class="clausula-17"><span class="clausula-titulo">CLÁUSULA DÉCIMA SÉTIMA:</span> Fica estabelecido que a sociedade não terá conselho fiscal.</div>
+  
+  <div class="clausula-18"><span class="clausula-titulo">CLÁUSULA DÉCIMA OITAVA:</span> Falecendo ou interditado qualquer sócio, a sociedade continuará suas atividades com os herdeiros, sucessores e o incapaz. Não sendo possível ou inexistindo interesse destes ou do(s) sócio(s) remanescente(s), o valor de seus haveres será apurado e liquidado com base na situação patrimonial da sociedade, à data da resolução, verificada em balanço especialmente levantado.<br>
+  Parágrafo único – O mesmo procedimento será adotado em outros casos em que a sociedade se resolva em relação ao seu sócio.</div>
+  
+  <div class="clausula-19"><span class="clausula-titulo">CLÁUSULA DÉCIMA NONA:</span> Nos termos do disposto no art. 1.085, da Lei n° 10.406/2002, o sócio que em razão de dissidência ou conflito com outros sócios, cometer falta grave, atos de inegável gravidade, ou colocar em risco a existência ou a continuidade da empresa, poderá, mediante simples deliberação da reunião (ou assembleia) dos sócios quotistas serem excluído da sociedade.</div>
+  
+  <div class="clausula-20"><span class="clausula-titulo">CLÁUSULA VIGÉSSIMA:</span> Os casos omissos neste contrato serão regidos pela Lei 6404/76 (Lei das S/A) com as alterações posteriores, e demais disposições legais aplicáveis.</div>
+  
+  <div class="clausula-21"><span class="clausula-titulo">CLÁUSULA VIGÉSSIMA PRIMEIRA:</span> A sócia <b>{{ nome_socio }}</b> declara que de acordo com a instrução normativa DREI Nº 81, de 10 de junho de 2020, a sociedade passa a ser UNIPESSOAL.</div>
+  
+  <div class="clausula-22"><span class="clausula-titulo">CLÁUSULA VIGÉSSIMA SEGUNDA:</span> A sócia declara que a sociedade sob as penas da Lei, que se enquadra na condição de MICROEMPRESA, nos termos da Lei Complementar nº 123, de 14/12/2006.</div>
+  
+  <div class="clausula-23"><span class="clausula-titulo">CLÁUSULA VIGÉSSIMA TERCEIRA:</span> Fica eleito o foro de {{ cidade_empresa }}, para o exercício e o cumprimento dos direitos e obrigações resultantes deste contrato.</div>
+  <div>E, por estar justo e contratado, lavra, data, e assina digitalmente o presente instrumento e se obrigam por si e por seus herdeiros a cumpri-lo em todos os seus termos.</div>
+
+  <div class="cidade-data">
+    {{ cidade_empresa }}, {{ data_contrato_extenso }}.
+  </div>
+
+  <div class="assinatura">
+    <p><span class="assinatura-nome">Assinado digitalmente___________</span></p>
+    <p class="assinatura-nome">{{ nome_socio }}</p>
+  </div>
+
+  <!-- Script para numeração de página no Chrome (visualização) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Coloca o número 1 em todos os elementos com a classe page-number
+      // No PDF gerado pelo WeasyPrint, isso será substituído automaticamente
+      var elements = document.getElementsByClassName('page-number');
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].textContent = '1';
+      }
+    });
+  </script>
+</body>
+</html>
