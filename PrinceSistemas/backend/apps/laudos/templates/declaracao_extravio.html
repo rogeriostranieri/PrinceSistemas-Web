@@ -1,0 +1,34 @@
+{% load l10n %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% language 'pt-br' %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Declaração de Extravio</title>
+    <style>
+        body { font-family: Arial, sans-serif; font-size: 13px; margin: 40px; }
+        .assinatura { margin-top: 80px; text-align: center; }
+        h2 { text-align: center; font-size: 15px; }
+        p { text-align: justify; text-indent: 40px; }
+    </style>
+</head>
+<body>
+    <h2>DECLARAÇÃO DE EXTRAVIO</h2>
+    <p>
+        {{ razaosocial }}, pessoa {{ tipo_pessoa }}, inscrita no {{ doc_tipo }} nº {{ doc_numero }}, CMC {{ cmc }}, com sede e foro no Município de Maringá, Estado do Paraná, na {{ endereco }}, CEP: {{ cep }}, neste ato representada pelo seu sócio/proprietário {{ requerente }}, portador(a) da Cédula de Identidade RG nº {{ rg }} expedida pela SSP {{ orgao }}, e inscrito(a) no Cadastro de Pessoas Físicas CPF sob o nº {{ cpf }}, DECLARO, para os devidos fins que o Alvará de Localização encontra-se extraviado, tornando o mesmo cancelado e sem efeito comercial.
+    </p>
+    <p>
+        Por ser verdade, firmo a presente.
+    </p>
+    <p>
+        {{ cidade }} – {{ estado }}, {{ hoje.day }} de {{ hoje|date:"F"|lower|capfirst }} de {{ hoje.year }}.
+    </p>
+    <div class="assinatura">
+        <hr style="width:300px;">
+        {{ requerente }}
+    </div>
+</body>
+</html>
+{% endlanguage %}

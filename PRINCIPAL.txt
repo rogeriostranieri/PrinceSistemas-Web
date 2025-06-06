@@ -1,0 +1,276 @@
+git add .
+git commit -m "Iniciando o projeto"
+git push
+
+=========================
+
+1. Adicione as alterações:
+git add .
+
+2. Faça um commit com uma mensagem:
+git commit -m "Descreva aqui o que mudou"
+
+3. Envie para o GitHub:
+git push
+
+Sempre que alterar, repita esses três comandos.
+Assim, seu repositório remoto ficará sempre atualizado com as últimas mudanças do seu projeto!
+
+
+
+
+
+Usar o AtencaoINICIAL.txt como Base
+
+
+NOME DO PROJETO = Prince Sistemas
+Vai ser CRUD, que significa que: Create (Criar), Read (Ler), Update (Atualizar), Delete (Excluir).
+apenas usar recursos novos e atualizados,
+vai ser: django, scss, prostsql, angular 14 standalone e python ou outro se precisar. (nao usar legado ou antigo)
+vai funcionar em computador, desktop, mobile, app e em todo lugar!
+tambem vai ter Gestos touch, Menu lateral responsivo, Ícones adaptativos, Loading otimizado!
+
+
+sempre que tiver atualização vou atualizar no projeto tambem.
+
+
+# DADOS DOS BANCO DE DADOS
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'PrinceDB',
+        'USER': 'postgres',
+        'PASSWORD': 'rs755',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'OPTIONS': {
+            'client_encoding': 'UTF8',
+            'connect_timeout': 5,
+        },
+    }
+}
+
+
+O Banco de dados "PrinceDB" e com as tabelas: "Empresa", "Laudos / Alvara", "Sócios", 	Parcelamentos".
+
+e suas sql para usar no GRUD as colunas=
+
+--------------
+---------------
+
+
+USAR NO PGADMIN4 para ver formato da coluna
+SELECT 
+    column_name, 
+    data_type 
+FROM 
+    information_schema.columns 
+WHERE 
+    table_schema = 'public' 
+    AND table_name = 'Contador';
+
+
+
+# ************ extra
+    comando para importar para o phyton correto = python -c "import environ, rest_framework, django_filters, PIL, pwa; print('Pacotes importados com sucesso!')"
+
+
+cd D:\0000000000000000000000000\PrinceSistemaPY\PRINCESISTEMAS\backend
+.\venv\Scripts\Activate.ps1
+=====================================================================================
+  
+backend
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend
+.\venv\Scripts\Activate.ps1
+python manage.py makemigrations
+python manage.py migrate
+python manage.py check
+python manage.py runserver
+
+
+frontend = 
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app
+ng serve --configuration=production
+=====================================================================================
+# INICIAR O PROJETO
+
+GITBASh -
+
+
+=====================================================================================
+
+USAR - material-icons para icones 
+USAR - docxtpl para documentos WORD backend
+USAR - weasyprint para gerar PDF backend
+
+
+ng build
+ng build --configuration=production
+------------------------------------------------------
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend
+python manage.py runserver
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app
+ng serve
+
+PROCURAR ERROS
+
+CD D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app\src\app
+npx eslint . --ext .ts --fix
+
+-------------------------------------------------------
+
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app
+ng generate component empresas/eventosempresa --standalone
+
+
+GIT GitHub  usar  ======
+cd D:\0000000000000000000000000\PrinceSistemaPY
+.\git-diario.ps1
+
+ou usar isso ===
+
+cd D:\0000000000000000000000000\PrinceSistemaPY
+git status
+git add .
+git commit -m "Mensagem do dia - 23/05/2025 atualizacao geral"
+git add .
+git push
+
+Situação	                        Comando
+Baixar alterações do servidor	    git pull
+Subir alterações para o servidor	git push
+
+
+
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend
+python manage.py runserver
+
+=================
+usar  (nao usar pois deu muito problema ja mas deixa aqui para caso precise)
+python manage.py startapp cadastro_status
+cd cadastro_status
+python manage.py startapp cadastro_status   
+python manage.py inspectdb CADstatus > apps\cadastro_status\models.py
+
+como ja existe uma DB apos criar a pasta ele faz Tudo 
+
+=================
+
+
+python manage.py shell  (para teste)
+=======================================================
+=======================================================
+=======================================================
+=======================================================
+=======================================================
+=======================================================
+=======================================================
+
+
+
+PROJETO = Prince Sistemas
+
+Backend = django + python + postgresql
+frontend = angular 19 standalone + typescript + scss 
+
+Sass/SCSS: Versão: 1.86.0 (compilado com Dart 3.7.2)
+Angular: Angular CLI: 19.0.0
+Angular standalone (procurar manual pois nao tem module.ts)
+scss
+Node: 22.14.0
+npm: 11.2.0
+sweetalert2
+
+Django: 4.2.5
+Python: 3.11.4
+PostgreSQL: 15.4
+Django Rest Framework: 3.14.0
+Django Filter: 23.2.0
+
+
+
+Principais melhorias e recursos do projeto:
+- Interface de usuário moderna e responsiva
+ - multiplataforma (desktop, mobile, app)
+- Design limpo e minimalista
+- Navegação intuitiva com menus e botões azul escuro e efeito azul claro
+- Formulários com validação em tempo real
+- Feedback visual para ações do usuário
+- Carregamento otimizado com animações suaves
+- Ícones adaptativos para melhor usabilidade
+- Gestos touch para dispositivos móveis
+- Menu lateral responsivo com animações
+- Transições fluidas entre páginas
+- Tipografia moderna e legível  
+- Cores e contrastes agradáveis
+- Layout flexível e adaptável a diferentes tamanhos de tela
+- Componentes reutilizáveis para facilitar a manutenção
+- Suporte a temas claros e escuros
+- Integração com APIs para dados dinâmicos
+- Armazenamento local para dados offline
+- Melhorias de desempenho para carregamento rápido
+- Sombras suaves e bordas arredondadas
+- Ícones e elementos visuais adicionais
+- Transições fluidas em todos os elementos interativos
+- Menu lateral móvel melhorado com animação
+- Variáveis SCSS para fácil personalização
+- Estados de foco acessíveis
+- moderno e responsivo tecnologico
+- botao voltar acima do texto lateral direito igual youtube
+ - Usar o SweetAlert2 como alertas e avisos 
+ - usar  SweetAlert2 para novo,editar,salvar,excluir,fechar e voltar
+- menu expansivel do lado esquerdo cima do texto igual youtube
+
+
+# Estrutura do projeto
+
+ESTRUTURA  = 
+
+PrinceSistemaPY/
+├── backend/                 # Django: APIs e lógica
+│   ├── apps/
+│   │   ├── login/
+│   │   ├── empresas/
+│   │   ├── parcelamentos/
+│   │   ├── laudos/
+│   │   ├── socios/
+│   │   ├── CNAE/
+│   │   ├── BrasilMunicipios/
+│   │   ├── BrasilEstados/
+│   │   ├── BrasilDistritos/
+│   │   ├── EventosEmpresa/
+│   │   ├── NaturezaJuridica/
+│   │   ├── Sites/
+│   ├── manage.py
+│   └── PrinceSistemas/
+│       ├── settings.py
+│       ├── urls.py
+│       ├── asgi.py / wsgi.py
+
+├── frontend/                # Angular: UI e experiência
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── components/
+│   │   │   ├── services/
+│   │   │   ├── home/
+│   │   │   ├── login/
+│   │   │   ├── empresas/
+│   │   │   ├── parcelamentos/
+│   │   │   ├── laudos/
+│   │   │   ├── socios/
+│   │   │   ├── consultar/
+│   │   │   ├── geral/
+│   │   │   ├── app.router.ts
+│   │   ├── assets/
+│   │   └── styles.css
+│   ├── angular.json
+│   └── package.json
+
+├── PRINCIPAL.txt
+└── requeriments.txt
+
+
+
+
+COMANDO PARA INSTALAR
+npm install sweetalert2
