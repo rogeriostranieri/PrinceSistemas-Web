@@ -18,44 +18,7 @@ Assim, seu repositório remoto ficará sempre atualizado com as últimas mudanç
 
 
 
-
-
-Usar o AtencaoINICIAL.txt como Base
-
-
-NOME DO PROJETO = Prince Sistemas
-Vai ser CRUD, que significa que: Create (Criar), Read (Ler), Update (Atualizar), Delete (Excluir).
-apenas usar recursos novos e atualizados,
-vai ser: django, scss, prostsql, angular 14 standalone e python ou outro se precisar. (nao usar legado ou antigo)
-vai funcionar em computador, desktop, mobile, app e em todo lugar!
-tambem vai ter Gestos touch, Menu lateral responsivo, Ícones adaptativos, Loading otimizado!
-
-
-sempre que tiver atualização vou atualizar no projeto tambem.
-
-
-# DADOS DOS BANCO DE DADOS
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'PrinceDB',
-        'USER': 'postgres',
-        'PASSWORD': 'rs755',
-        'HOST': 'localhost',
-        'PORT': '5432',
-        'OPTIONS': {
-            'client_encoding': 'UTF8',
-            'connect_timeout': 5,
-        },
-    }
-}
-
-
-O Banco de dados "PrinceDB" e com as tabelas: "Empresa", "Laudos / Alvara", "Sócios", 	Parcelamentos".
-
-e suas sql para usar no GRUD as colunas=
-
---------------
+-------------
 ---------------
 
 
@@ -134,10 +97,11 @@ CD D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app\src\
 npx eslint . --ext .ts --fix
 
 -------------------------------------------------------
-
+# CRIAR NOVO PROJETO
 cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app
 ng generate component empresas/eventosempresa --standalone
 
+==========================================================
 
 GIT GitHub  usar  ======
 cd D:\0000000000000000000000000\PrinceSistemaPY
@@ -173,121 +137,3 @@ como ja existe uma DB apos criar a pasta ele faz Tudo
 
 =================
 
-
-python manage.py shell  (para teste)
-=======================================================
-=======================================================
-=======================================================
-=======================================================
-=======================================================
-=======================================================
-=======================================================
-
-
-
-PROJETO = Prince Sistemas
-
-Backend = django + python + postgresql
-frontend = angular 19 standalone + typescript + scss 
-
-Sass/SCSS: Versão: 1.86.0 (compilado com Dart 3.7.2)
-Angular: Angular CLI: 19.0.0
-Angular standalone (procurar manual pois nao tem module.ts)
-scss
-Node: 22.14.0
-npm: 11.2.0
-sweetalert2
-
-Django: 4.2.5
-Python: 3.11.4
-PostgreSQL: 15.4
-Django Rest Framework: 3.14.0
-Django Filter: 23.2.0
-
-
-
-Principais melhorias e recursos do projeto:
-- Interface de usuário moderna e responsiva
- - multiplataforma (desktop, mobile, app)
-- Design limpo e minimalista
-- Navegação intuitiva com menus e botões azul escuro e efeito azul claro
-- Formulários com validação em tempo real
-- Feedback visual para ações do usuário
-- Carregamento otimizado com animações suaves
-- Ícones adaptativos para melhor usabilidade
-- Gestos touch para dispositivos móveis
-- Menu lateral responsivo com animações
-- Transições fluidas entre páginas
-- Tipografia moderna e legível  
-- Cores e contrastes agradáveis
-- Layout flexível e adaptável a diferentes tamanhos de tela
-- Componentes reutilizáveis para facilitar a manutenção
-- Suporte a temas claros e escuros
-- Integração com APIs para dados dinâmicos
-- Armazenamento local para dados offline
-- Melhorias de desempenho para carregamento rápido
-- Sombras suaves e bordas arredondadas
-- Ícones e elementos visuais adicionais
-- Transições fluidas em todos os elementos interativos
-- Menu lateral móvel melhorado com animação
-- Variáveis SCSS para fácil personalização
-- Estados de foco acessíveis
-- moderno e responsivo tecnologico
-- botao voltar acima do texto lateral direito igual youtube
- - Usar o SweetAlert2 como alertas e avisos 
- - usar  SweetAlert2 para novo,editar,salvar,excluir,fechar e voltar
-- menu expansivel do lado esquerdo cima do texto igual youtube
-
-
-# Estrutura do projeto
-
-ESTRUTURA  = 
-
-PrinceSistemaPY/
-├── backend/                 # Django: APIs e lógica
-│   ├── apps/
-│   │   ├── login/
-│   │   ├── empresas/
-│   │   ├── parcelamentos/
-│   │   ├── laudos/
-│   │   ├── socios/
-│   │   ├── CNAE/
-│   │   ├── BrasilMunicipios/
-│   │   ├── BrasilEstados/
-│   │   ├── BrasilDistritos/
-│   │   ├── EventosEmpresa/
-│   │   ├── NaturezaJuridica/
-│   │   ├── Sites/
-│   ├── manage.py
-│   └── PrinceSistemas/
-│       ├── settings.py
-│       ├── urls.py
-│       ├── asgi.py / wsgi.py
-
-├── frontend/                # Angular: UI e experiência
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── components/
-│   │   │   ├── services/
-│   │   │   ├── home/
-│   │   │   ├── login/
-│   │   │   ├── empresas/
-│   │   │   ├── parcelamentos/
-│   │   │   ├── laudos/
-│   │   │   ├── socios/
-│   │   │   ├── consultar/
-│   │   │   ├── geral/
-│   │   │   ├── app.router.ts
-│   │   ├── assets/
-│   │   └── styles.css
-│   ├── angular.json
-│   └── package.json
-
-├── PRINCIPAL.txt
-└── requeriments.txt
-
-
-
-
-COMANDO PARA INSTALAR
-npm install sweetalert2
