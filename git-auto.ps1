@@ -1,3 +1,7 @@
+param(
+    [string]$msg = "Atualização automática"
+)
+
 # Navega até a pasta do projeto
 cd "D:\0000000000000000000000000\PrinceSistemaPY"
 
@@ -10,11 +14,8 @@ if (-not (Test-Path .git)) {
 # Adiciona tudo
 git add .
 
-# Commit com mensagem padrão ou argumento passado
-param(
-    [string]$msg = "Atualização automática"
-)
+# Faz o commit com a mensagem recebida
 git commit -m $msg
 
-# Push branch main (renomeie aqui se for outro branch)
+# Push para o branch main
 git push -u origin main
