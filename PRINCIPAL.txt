@@ -101,16 +101,32 @@ GITBASh -
 
 USAR - material-icons para icones 
 USAR - docxtpl para documentos WORD backend
-USAR - weasyprint para gerar PDF backend
 
 
 ng build
 ng build --configuration=production
 ------------------------------------------------------
 cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend
+.\venv\Scripts\Activate.ps1
 python manage.py runserver
 cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app
 ng serve
+
+====== RODAR EM REDE =============
+
+# 1. backend
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend
+.\venv\Scripts\Activate.ps1
+python manage.py runserver 0.0.0.0:8000
+
+
+# 2. frontend
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app
+ng serve --host 0.0.0.0
+ou ng serve --host 0.0.0.0 --allowed-hosts=all
+
+
+==================================================
 
 PROCURAR ERROS
 
@@ -125,7 +141,8 @@ ng generate component empresas/eventosempresa --standalone
 
 GIT GitHub  usar  ======
 cd D:\0000000000000000000000000\PrinceSistemaPY
-.\git-diario.ps1
+.\git-auto.ps1 -msg "Minha mensagem de commit"
+
 
 ou usar isso ===
 

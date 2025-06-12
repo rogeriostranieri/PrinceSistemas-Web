@@ -18,7 +18,6 @@ from django.utils.timezone import make_aware
 from django.db.models.functions import Cast
 from django.db.models import DateField
 from django.template.loader import render_to_string
-from weasyprint import HTML
 from django.http import HttpResponse
 from docxtpl import DocxTemplate
 from io import BytesIO
@@ -267,55 +266,6 @@ class AvisosEmpresasView(APIView):
 
         return Response(resultados, status=status.HTTP_200_OK)
 
-def exportar_empresa_resumida_pdf(request, empresa_id):
-    empresa = Empresa.objects.get(pk=empresa_id)
-    socio_nome = empresa.nomeresponsavel or ''
-    socio_cpf = empresa.cpfresponsavel or ''
-    socio_rg = empresa.resprg or ''
-    socio_orgao = empresa.responsavelorgaorg or ''
-    socio_estado = empresa.responsavelestadoorgaorg or ''
-    # Corrigido para aceitar string ou date
-    socio_nasc = ''
-    if empresa.respdatanasc:
-        if hasattr(empresa.respdatanasc, 'strftime'):
-            socio_nasc = empresa.respdatanasc.strftime('%d de %B de %Y')
-        else:
-            try:
-                data = datetime.strptime(empresa.respdatanasc, '%Y-%m-%d')
-                socio_nasc = data.strftime('%d de %B de %Y')
-            except Exception:
-                socio_nasc = empresa.respdatanasc
-
-    socio_nacionalidade = 'brasileira'
-    socio_estado_civil = 'casada em regime de comunhão parcial de bens'
-    socio_profissao = ''
-    socio_endereco = f"{empresa.endereco}, nº {empresa.endnumero}, {empresa.endcomplemento+', ' if empresa.endcomplemento else ''}{empresa.endbairro}, CEP: {empresa.endcep}, na cidade de {empresa.endcidade}-{empresa.endestado}"
-    socio_genero = 'feminino'
-    portador = 'portadora' if socio_genero == 'feminino' else 'portador'
-    domiciliado = 'domiciliada' if socio_genero == 'feminino' else 'domiciliado'
-    nascido = 'nascida' if socio_genero == 'feminino' else 'nascido'
-
-    contexto = {
-        'socio_texto_principal': f"{socio_nome}, {socio_nacionalidade}, {socio_estado_civil}, {nascido} em {socio_nasc}, residente e {domiciliado} na {socio_endereco}, {portador} da Cédula da Identidade Civil RG n.º {socio_rg}-{socio_orgao}/{socio_estado} e do CPF n.º {socio_cpf}.",
-        'razao_social': empresa.razaosocial,
-        'endereco_empresa': socio_endereco,
-        'data_inicio_atividade_extenso': empresa.empinicioatividade.strftime('%d de %B de %Y') if hasattr(empresa.empinicioatividade, 'strftime') else empresa.empinicioatividade or '',
-        'objeto_social': empresa.objetodoestabelecimento or empresa.ramodeatividade or '',
-        'capital_social': empresa.capitals or '',
-        'capital_social_extenso': 'trinta mil reais',
-        'quotas': '30.000',
-        'quotas_extenso': 'trinta mil',
-        'valor_quota': '1,00',
-        'valor_quota_extenso': 'um real',
-        'cidade_empresa': empresa.endcidade,
-        'data_contrato_extenso': '01 de julho de 2024',
-        'nome_socio': socio_nome,
-    }
-    html_string = render_to_string('Abertura1SocioLTDA.html', contexto)
-    pdf_file = HTML(string=html_string).write_pdf()
-    response = HttpResponse(pdf_file, content_type='application/pdf')
-    response['Content-Disposition'] = f'inline; filename=Contrato_{empresa.razaosocial}.pdf'
-    return response
 
 def gerar_contrato_word(request, empresa_id):
     empresa = Empresa.objects.get(id_empresas=empresa_id)
@@ -711,3 +661,17 @@ def montar_texto_socio(socio: Socio):
         texto += f"-{orgao}/{estado_rg}"
     texto += f" e do CPF n.º {cpf}."
     return texto
+
+# Adicione esta função ao arquivo views.py
+def exportar_empresa_resumida_pdf(request, empresa_id):
+    """
+    Função substituída que não usa weasyprint.
+    """
+    empresa = Empresa.objects.get(id_empresas=empresa_id)
+    
+    return HttpResponse(
+        f"A funcionalidade de exportação para PDF da empresa '{empresa.razaosocial}' foi desativada "
+        f"pois dependia da biblioteca weasyprint. "
+        f"Por favor, use as opções de exportação para Word disponíveis.",
+        content_type='text/plain'
+    )

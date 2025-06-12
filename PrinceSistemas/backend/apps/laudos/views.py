@@ -19,7 +19,6 @@ from apps.parcelamentos.models import Parcelamento
 import django_filters
 from django.http import HttpResponse
 from django.template.loader import render_to_string
-from weasyprint import HTML
 from rest_framework.decorators import action
 from django.shortcuts import get_object_or_404
 
@@ -434,35 +433,15 @@ class AvisosLaudosView(APIView):
         return Response(resultados, status=status.HTTP_200_OK)
 
 def declaracao_extravio_pdf(request, laudo_id):
-    # Busque o laudo no banco de dados
+    """
+    Função substituída que não usa weasyprint.
+    """
     from .models import Laudo
     laudo = Laudo.objects.get(pk=laudo_id)
-
-    # Monte o contexto com os dados do laudo
-    context = {
-        'razaosocial': laudo.razaosocial or '________________________',
-        'tipo_pessoa': 'jurídica' if laudo.cnpj and len(laudo.cnpj.replace('.', '').replace('/', '').replace('-', '')) == 14 else 'física',
-        'doc_tipo': 'CNPJ' if laudo.cnpj and len(laudo.cnpj.replace('.', '').replace('/', '').replace('-', '')) == 14 else 'CPF',
-        'doc_numero': laudo.cnpj or laudo.cpf_requerente or '_____________________',
-        'cmc': laudo.cmc or '_____________',
-        'endereco': f"{laudo.endereco or ''}, {laudo.endnum or ''}, {laudo.endcomp or ''}, {laudo.endbairro or ''}",
-        'cep': laudo.endcep or '___________',
-        'cidade': laudo.endcidade or '(cidade)',
-        'estado': laudo.endestado or '(estado)',
-        'requerente': laudo.requerente or '__________________________________________',
-        'rg': laudo.rg_requerente or '________________________',
-        'orgao': laudo.orgao_rg_requerente or '____',
-        'cpf': laudo.cpf_requerente or '_______________________________',
-        'hoje': date.today(),
-    }
-
-    # Renderize o HTML
-    html_string = render_to_string('declaracao_extravio.html', context)
-
-    # Gere o PDF
-    pdf_file = HTML(string=html_string).write_pdf()
-
-    # Retorne o PDF como resposta
-    response = HttpResponse(pdf_file, content_type='application/pdf')
-    response['Content-Disposition'] = 'attachment; filename="Declaracao_Extravio_Alvara.pdf"'
-    return response
+    
+    return HttpResponse(
+        f"A funcionalidade de exportação para PDF do laudo '{laudo.razaosocial}' foi desativada "
+        f"pois dependia da biblioteca weasyprint. "
+        f"Por favor, use as opções de exportação para Word disponíveis.",
+        content_type='text/plain'
+    )

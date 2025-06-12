@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-&p&lwl)==&6cu$43bj$2!zmt$!ag578$cquy79g5@!w68kk8--
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']  # Permite conexões de qualquer host (apenas para desenvolvimento)
 
 
 # Application definition
@@ -71,6 +71,8 @@ INSTALLED_APPS = [
 
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',  # Deve estar o mais acima possível
+    'django.middleware.common.CommonMiddleware',
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -78,8 +80,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    'corsheaders.middleware.CorsMiddleware',  # Deve estar o mais acima possível
-    'django.middleware.common.CommonMiddleware',
+    
     # ... outros middlewares
 ]
 
@@ -116,7 +117,7 @@ DATABASES = {
         'NAME': 'PrinceDB',
         'USER': 'postgres',
         'PASSWORD': 'rs755',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
         'OPTIONS': {
             'client_encoding': 'UTF8',
