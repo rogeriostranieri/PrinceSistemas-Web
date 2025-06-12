@@ -154,7 +154,7 @@ class Empresa(models.Model):
     simplesecac = models.CharField(max_length=50, blank=True, null=True, db_column='SimplesEcac')
     avisarempresatexto = models.TextField(blank=True, null=True, db_column='AvisarEmpresaTexto')
     temenderecoantigoemp = models.CharField(max_length=50, blank=True, null=True, db_column='TemEnderecoAntigoEmp')
-    enderecoantigoemp = models.CharField(max_length=255, blank=True, null=True, db_column='EnderecoAntigoEmp')
+    enderecoantigoemp = models.TextField(blank=True, null=True, db_column='EnderecoAntigoEmp')
     codsistemaexterno = models.CharField(max_length=255, blank=True, null=True, db_column='CodSistemaExterno')
 
 #checkbox de avisos
