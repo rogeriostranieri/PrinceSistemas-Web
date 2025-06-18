@@ -2,20 +2,23 @@ param(
     [string]$msg = "Atualização automática"
 )
 
-# Navega até a pasta do projeto
 cd "D:\0000000000000000000000000\PrinceSistemaPY"
 
-# Inicializa git (se já tiver .git ignora)
 if (-not (Test-Path .git)) {
     git init
     git remote add origin https://github.com/rogeriostranieri/PrinceSistemas-Web.git
 }
 
-# Adiciona tudo
-git add .
+Write-Host "Adicionando todas as alterações..."
+git add -A
 
-# Faz o commit com a mensagem recebida
-git commit -m $msg
+# Só comita se houver algo staged
+if (-not (git diff --cached --quiet)) {
+    Write-Host "Criando commit: '$msg'"
+    git commit -m "$msg"
+} else {
+    Write-Host "Nenhuma alteração para commitar."
+}
 
-# Push para o branch main
-git push -u origin main
+Write-Host "Enviando para o repositório remoto..."
+git push -u origin

@@ -114,7 +114,7 @@ ng generate component empresas/eventosempresa --standalone
 
 GIT GitHub  usar  ======
 cd D:\0000000000000000000000000\PrinceSistemaPY
-.\git-auto.ps1 -msg "Minha mensagem de commit"
+.\git-auto.ps1 -msg "Minha mensagem de commit é .... novamente atualizando muita coisa"
 
 
 ou usar isso ===
