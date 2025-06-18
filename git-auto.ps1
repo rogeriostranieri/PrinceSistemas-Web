@@ -1,3 +1,7 @@
+# força a página de código UTF-8 e o encoding do console
+chcp 65001 | Out-Null
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
+
 param(
     [string]$msg = "Atualização automática"
 )
@@ -12,7 +16,6 @@ if (-not (Test-Path .git)) {
 Write-Host "Adicionando todas as alterações..."
 git add -A
 
-# Só comita se houver algo staged
 if (-not (git diff --cached --quiet)) {
     Write-Host "Criando commit: '$msg'"
     git commit -m "$msg"
@@ -21,4 +24,4 @@ if (-not (git diff --cached --quiet)) {
 }
 
 Write-Host "Enviando para o repositório remoto..."
-git push -u origin
+git push -u origin main
