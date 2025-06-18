@@ -22,8 +22,8 @@ if (-not (git diff --cached --quiet)) {
     Write-Host "Criando commit: '$msg'"
     git commit -m "$msg"
 } else {
-    Write-Host "Nenhuma alteração para commitar."
+    Write-Host "Nenhuma alteracao para commitar."
 }
 
-Write-Host "Enviando para o repositório remoto..."
+Write-Host "Enviando para o repositorio remoto..."
 git push -u origin main
