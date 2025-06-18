@@ -1,10 +1,10 @@
-# força a página de código UTF-8 e o encoding do console
-chcp 65001 | Out-Null
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
-
 param(
     [string]$msg = "Atualização automática"
 )
+
+# força a página de código UTF-8 e o encoding do console
+chcp 65001 | Out-Null
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 
 cd "D:\0000000000000000000000000\PrinceSistemaPY"
 
