@@ -3,7 +3,7 @@ param(
     [string]$msg = "Atualização automática"
 )
 
-# força a página de código e o encoding UTF-8 antes de qualquer saída
+# força CP-65001 e encoding UTF-8 antes de qualquer saída
 chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 [Console]::InputEncoding  = [System.Text.UTF8Encoding]::new()
