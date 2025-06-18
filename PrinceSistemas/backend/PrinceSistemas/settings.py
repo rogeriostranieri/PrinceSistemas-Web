@@ -25,7 +25,14 @@ SECRET_KEY = "django-insecure-&p&lwl)==&6cu$43bj$2!zmt$!ag578$cquy79g5@!w68kk8--
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']  # Permite conexões de qualquer host (apenas para desenvolvimento)
+# Permitir acesso externo
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '189.46.94.184',  # seu IP público
+    'princesistemas.ddns.net',  # seu domínio
+    '*'  # temporário para teste
+]
 
 
 # Application definition
@@ -84,6 +91,14 @@ MIDDLEWARE = [
     # ... outros middlewares
 ]
 
+# CORS para permitir requisições do frontend
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:4200",
+    "http://princesistemas.ddns.net:4200",
+    "https://princesistemas.ddns.net:4200",
+]
+
+# Ou permitir todas as origens (só para teste)
 CORS_ALLOW_ALL_ORIGINS = True
 
 

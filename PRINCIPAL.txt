@@ -85,8 +85,17 @@ python manage.py runserver 0.0.0.0:8000
 
 # 2. frontend
 cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app
+ng serve --host 0.0.0.0 --port 8765
+
+
+# 3. proxy
+cd D:\0000000000000000000000000\PrinceSistemaPY
+node proxy-server.js
+
+====== FIM RODAR EM REDE =============
+(porta antiga abaixo)
 ng serve --host 0.0.0.0
-ou ng serve --host 0.0.0.0 --allowed-hosts=all
+ng serve --host 0.0.0.0 --port 4200 --disable-host-check
 
 
 ==================================================

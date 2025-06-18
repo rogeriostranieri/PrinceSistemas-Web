@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "moment": "^2.30.1"
+  },
+  "scripts": {
+    "serve-external": "cd PrinceSistemas/frontend/app && ng serve --host 0.0.0.0 --port 8765",
+    "start-frontend": "cd PrinceSistemas/frontend/app && ng serve --port 8765",
+    "start-backend": "cd PrinceSistemas/backend && python manage.py runserver 0.0.0.0:8000",
+    "start-all": "concurrently \"npm run start-backend\" \"npm run serve-external\""
   }
 }
