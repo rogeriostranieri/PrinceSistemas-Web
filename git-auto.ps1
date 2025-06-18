@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 param(
-    [string]$msg = "Atualização automática"
+    [string]$msg = "Atualizacao automatica"
 )
 
 # força CP-65001 e encoding UTF-8 antes de qualquer saída
@@ -15,7 +15,7 @@ if (-not (Test-Path .git)) {
     git remote add origin https://github.com/rogeriostranieri/PrinceSistemas-Web.git
 }
 
-Write-Host "Adicionando todas as alterações..."
+Write-Host "Adicionando todas as alteracoes..."
 git add -A
 
 if (-not (git diff --cached --quiet)) {
