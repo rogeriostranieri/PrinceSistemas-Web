@@ -15,5 +15,6 @@ class BrasilMunicipios(models.Model):
         return self.nome
 
     class Meta:
+        ordering = ['nome']
         db_table = 'BrasilMunicipios'
         managed = False

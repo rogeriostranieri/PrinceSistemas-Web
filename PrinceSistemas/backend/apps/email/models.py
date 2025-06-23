@@ -15,6 +15,7 @@ class Email(models.Model):
     class Meta:
         managed = False
         db_table = 'eMail'
+        ordering = ['id_email']
 
 class Emailcaixadesaida(models.Model):
     id_emailcaixadesaida = models.AutoField(db_column='ID_eMailCaixaDeSaida', primary_key=True)

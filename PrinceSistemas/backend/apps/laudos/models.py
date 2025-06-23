@@ -112,6 +112,7 @@ class Laudo(models.Model):
     class Meta:
         db_table = 'Laudos'
         managed = False
+        ordering = ['id_laudos']
 
     def __str__(self):
         return self.razaosocial or str(self.id_laudos)

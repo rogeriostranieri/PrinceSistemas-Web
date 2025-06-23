@@ -16,3 +16,4 @@ class EventosEmpresa(models.Model):
     class Meta:
         db_table = 'EventosEmpresa'
         managed = False
+        ordering = ['eventos_descricao_titulo']

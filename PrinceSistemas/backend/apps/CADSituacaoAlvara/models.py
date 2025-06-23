@@ -12,3 +12,4 @@ class CADSituacaoAlvara(models.Model):
         db_table = 'CADSituacaoAlvara'
         verbose_name = 'Situação do Alvará'
         verbose_name_plural = 'Situações dos Alvarás'
+        ordering = ['ID_CADSituacaoAlv']

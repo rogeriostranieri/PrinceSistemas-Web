@@ -202,6 +202,7 @@ class Empresa(models.Model):
     class Meta:
         db_table = 'Empresas'
         managed = True  # Alterado para True para permitir migrações
+        ordering = ['razaosocial']
 
     def __str__(self):
         return self.razaosocial

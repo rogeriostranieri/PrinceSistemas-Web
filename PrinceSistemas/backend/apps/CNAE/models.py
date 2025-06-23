@@ -14,3 +14,4 @@ class CNAE(models.Model):
     class Meta:
         db_table = 'CNAESubclasses23'
         managed = False
+        ordering = ['secao', 'divisao', 'grupo', 'classe', 'subclasse']

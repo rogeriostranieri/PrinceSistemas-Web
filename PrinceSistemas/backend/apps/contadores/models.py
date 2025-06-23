@@ -35,6 +35,7 @@ class Contador(models.Model):
     class Meta:
         db_table = '"Contador"'
         managed = False
+        ordering = ['ID_Contador']
 
     def __str__(self):
         return self.Nome or ''

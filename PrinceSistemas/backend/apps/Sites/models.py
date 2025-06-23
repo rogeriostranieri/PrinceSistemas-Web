@@ -31,6 +31,7 @@ class Sites(models.Model):
     class Meta:
         managed = False
         db_table = 'Sites'
+        ordering = ['estado', 'cidade']
 
     def __str__(self):
         return f"{self.cidade} - {self.estado}"
