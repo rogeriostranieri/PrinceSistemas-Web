@@ -12,5 +12,7 @@ class BrasilEstados(models.Model):
         return self.nome
 
     class Meta:
+        ordering = ['nome'] # Ordenar por nome do estado
+        
         db_table = 'BrasilEstado'
         managed = False

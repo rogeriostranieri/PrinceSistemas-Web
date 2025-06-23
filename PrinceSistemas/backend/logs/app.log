@@ -1,0 +1,1111 @@
+[INFO] 2025-06-23 14:14:38,341 django.utils.autoreload 2036 10144 Watching for file changes with StatReloader
+[INFO] 2025-06-23 14:18:47,602 django.utils.autoreload 6264 23056 Watching for file changes with StatReloader
+[ERROR] 2025-06-23 14:19:52,009 django.security.DisallowedHost 6264 14268 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[ERROR] 2025-06-23 14:19:52,010 django.security.DisallowedHost 6264 4768 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[ERROR] 2025-06-23 14:19:52,011 django.security.DisallowedHost 6264 22724 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[ERROR] 2025-06-23 14:19:52,012 django.security.DisallowedHost 6264 22304 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[ERROR] 2025-06-23 14:19:52,013 django.security.DisallowedHost 6264 23016 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[ERROR] 2025-06-23 14:19:52,014 django.security.DisallowedHost 6264 13760 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[WARNING] 2025-06-23 14:19:52,065 django.request 6264 14268 Bad Request: /api/parcelamentos/
+[WARNING] 2025-06-23 14:19:52,065 django.request 6264 4768 Bad Request: /api/avisos-empresas/
+[WARNING] 2025-06-23 14:19:52,065 django.request 6264 22724 Bad Request: /api/empresas/
+[WARNING] 2025-06-23 14:19:52,067 django.request 6264 22304 Bad Request: /api/parcelamentos-mensal/
+[WARNING] 2025-06-23 14:19:52,069 django.request 6264 23016 Bad Request: /api/avisos-laudos/
+[WARNING] 2025-06-23 14:19:52,070 django.request 6264 13760 Bad Request: /api/avisos-parcelamentos/
+[WARNING] 2025-06-23 14:19:52,071 django.server 6264 14268 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 400 143
+[WARNING] 2025-06-23 14:19:52,071 django.server 6264 4768 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 400 143
+[WARNING] 2025-06-23 14:19:52,072 django.server 6264 22724 "GET /api/empresas/?lembrete=true HTTP/1.1" 400 143
+[WARNING] 2025-06-23 14:19:52,073 django.server 6264 22304 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 400 143
+[WARNING] 2025-06-23 14:19:52,073 django.server 6264 23016 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 400 143
+[WARNING] 2025-06-23 14:19:52,074 django.server 6264 13760 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 400 143
+[ERROR] 2025-06-23 14:19:52,397 django.security.DisallowedHost 6264 4696 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\middleware\security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend\venv\Lib\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[WARNING] 2025-06-23 14:19:52,399 django.request 6264 4696 Bad Request: /api/empresas/
+[WARNING] 2025-06-23 14:19:52,400 django.server 6264 4696 "GET /api/empresas/?prioridade=true HTTP/1.1" 400 143
+[INFO] 2025-06-23 14:23:28,070 django.utils.autoreload 6264 23056 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\PrinceSistemas\settings.py changed, reloading.
+[INFO] 2025-06-23 14:23:29,890 django.utils.autoreload 7792 11272 Watching for file changes with StatReloader
+[INFO] 2025-06-23 14:23:54,627 django.utils.autoreload 7792 11272 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\PrinceSistemas\middleware.py changed, reloading.
+[INFO] 2025-06-23 14:23:56,272 django.utils.autoreload 22780 10200 Watching for file changes with StatReloader
+[INFO] 2025-06-23 14:24:05,763 django.server 22780 13128 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:24:05,821 django.server 22780 20572 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:24:05,837 django.server 22780 20572 - Broken pipe from ('127.0.0.1', 58835)
+[INFO] 2025-06-23 14:24:05,904 django.server 22780 21304 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:24:05,918 django.server 22780 14536 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:24:05,949 django.server 22780 13128 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:24:05,977 django.server 22780 10860 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:24:05,996 django.server 22780 240 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:24:06,068 django.server 22780 10860 - Broken pipe from ('127.0.0.1', 58840)
+[INFO] 2025-06-23 14:25:06,360 django.server 22780 4556 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:25:06,409 django.server 22780 12356 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:25:06,443 django.server 22780 4556 - Broken pipe from ('127.0.0.1', 58927)
+[INFO] 2025-06-23 14:25:06,527 django.server 22780 2732 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:25:06,679 django.server 22780 5540 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:25:06,686 django.server 22780 19752 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:25:06,703 django.server 22780 12356 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:25:06,782 django.server 22780 9924 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:25:06,827 django.server 22780 9924 - Broken pipe from ('127.0.0.1', 58932)
+[INFO] 2025-06-23 14:25:15,633 django.server 22780 11340 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-06-23 14:26:05,346 django.utils.autoreload 10640 13504 Watching for file changes with StatReloader
+[INFO] 2025-06-23 14:26:10,126 django.server 10640 9368 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-06-23 14:26:14,028 django.server 10640 9368 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:26:14,029 django.server 10640 1392 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:26:14,077 django.server 10640 9368 - Broken pipe from ('127.0.0.1', 59042)
+[INFO] 2025-06-23 14:26:14,222 django.server 10640 22788 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:26:14,284 django.server 10640 17676 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:26:14,321 django.server 10640 22556 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:26:14,333 django.server 10640 1392 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:26:14,417 django.server 10640 14036 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:26:14,429 django.server 10640 14036 - Broken pipe from ('127.0.0.1', 59070)
+[INFO] 2025-06-23 14:26:16,391 django.server 10640 13328 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:26:16,430 django.server 10640 6608 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:26:16,486 django.server 10640 12804 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:26:16,557 django.server 10640 17324 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:26:16,565 django.server 10640 6868 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:26:16,578 django.server 10640 17324 - Broken pipe from ('127.0.0.1', 59109)
+[INFO] 2025-06-23 14:26:16,675 django.server 10640 8132 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:26:16,680 django.server 10640 8132 - Broken pipe from ('127.0.0.1', 59113)
+[INFO] 2025-06-23 14:26:16,691 django.server 10640 13328 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:27:26,453 django.server 10640 16932 "GET /api/empresas/ HTTP/1.1" 200 224471
+[WARNING] 2025-06-23 14:27:26,933 django.request 10640 16932 Not Found: /favicon.ico
+[WARNING] 2025-06-23 14:27:26,936 django.server 10640 16932 "GET /favicon.ico HTTP/1.1" 404 179
+[INFO] 2025-06-23 14:27:48,978 django.utils.autoreload 10640 13504 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\PrinceSistemas\settings.py changed, reloading.
+[INFO] 2025-06-23 14:27:50,762 django.utils.autoreload 20740 12968 Watching for file changes with StatReloader
+[INFO] 2025-06-23 14:27:57,283 django.server 20740 10044 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:27:57,320 django.server 20740 24428 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:27:57,331 django.server 20740 18172 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:27:57,370 django.server 20740 3868 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:27:57,371 django.server 20740 8324 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:27:57,387 django.server 20740 22316 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:27:57,401 django.server 20740 8324 - Broken pipe from ('127.0.0.1', 59267)
+[INFO] 2025-06-23 14:27:57,507 django.server 20740 24428 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:28:06,703 django.server 20740 12688 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-06-23 14:28:07,081 django.server 20740 12688 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4209
+[WARNING] 2025-06-23 14:28:07,167 django.request 20740 12688 Not Found: /static/admin/css/base.css
+[WARNING] 2025-06-23 14:28:07,170 django.request 20740 4736 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-06-23 14:28:07,173 django.request 20740 1452 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-06-23 14:28:07,177 django.server 20740 12688 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,177 django.server 20740 4736 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,183 django.server 20740 1452 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,192 django.request 20740 12688 Not Found: /static/admin/css/login.css
+[WARNING] 2025-06-23 14:28:07,195 django.request 20740 4736 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-06-23 14:28:07,196 django.request 20740 1452 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-06-23 14:28:07,196 django.server 20740 12688 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,198 django.server 20740 4736 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,199 django.server 20740 1452 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,250 django.request 20740 1452 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-06-23 14:28:07,278 django.server 20740 1452 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,282 django.request 20740 4736 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-06-23 14:28:07,284 django.request 20740 12688 Not Found: /static/admin/css/login.css
+[WARNING] 2025-06-23 14:28:07,291 django.server 20740 4736 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,295 django.server 20740 12688 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:07,299 django.request 20740 4736 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-06-23 14:28:07,300 django.server 20740 4736 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[INFO] 2025-06-23 14:28:11,948 django.server 20740 23184 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4404
+[WARNING] 2025-06-23 14:28:12,032 django.request 20740 23184 Not Found: /static/admin/css/base.css
+[WARNING] 2025-06-23 14:28:12,039 django.request 20740 4160 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-06-23 14:28:12,040 django.request 20740 24412 Not Found: /static/admin/css/login.css
+[WARNING] 2025-06-23 14:28:12,054 django.server 20740 4160 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,054 django.server 20740 23184 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,057 django.server 20740 24412 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,067 django.request 20740 4160 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-06-23 14:28:12,069 django.request 20740 23184 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-06-23 14:28:12,070 django.request 20740 24412 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-06-23 14:28:12,071 django.server 20740 4160 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,071 django.server 20740 23184 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,072 django.server 20740 24412 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,082 django.request 20740 24412 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-06-23 14:28:12,087 django.request 20740 23184 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-06-23 14:28:12,089 django.request 20740 4160 Not Found: /static/admin/css/login.css
+[WARNING] 2025-06-23 14:28:12,090 django.server 20740 23184 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,090 django.server 20740 4160 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,091 django.server 20740 24412 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[WARNING] 2025-06-23 14:28:12,098 django.request 20740 4160 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-06-23 14:28:12,099 django.server 20740 4160 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[INFO] 2025-06-23 14:29:36,519 django.utils.autoreload 20740 12968 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\PrinceSistemas\settings.py changed, reloading.
+[INFO] 2025-06-23 14:29:39,042 django.utils.autoreload 17732 15956 Watching for file changes with StatReloader
+[INFO] 2025-06-23 14:29:43,772 django.server 17732 11440 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:29:43,848 django.server 17732 19436 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:29:43,849 django.server 17732 20572 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:29:43,851 django.server 17732 20548 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:29:43,866 django.server 17732 11368 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:29:43,913 django.server 17732 20932 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:29:44,043 django.server 17732 19436 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:29:44,044 django.server 17732 11440 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:29:44,140 django.server 17732 11440 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:29:45,454 django.server 17732 11724 code 400, message Bad request version ('¿\x14¿')
+[ERROR] 2025-06-23 14:29:45,454 django.server 17732 11724 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-06-23 14:29:45,743 django.server 17732 5044 code 400, message Bad request version ('¿\x14¿')
+[ERROR] 2025-06-23 14:29:45,744 django.server 17732 5044 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-06-23 14:29:46,033 django.server 17732 21360 code 400, message Bad request version ('¿\x14¿')
+[ERROR] 2025-06-23 14:29:46,034 django.server 17732 21360 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-06-23 14:29:46,407 django.server 17732 24520 code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00u\x01\x00\x00q\x03\x03º+∏:\x123\x9cJ\x81OÃ\x01d¥\x91u€nFD7Ú\x9a_K,,2q– '\x00\x00\x1a¿/¿+¿\x11¿\x07¿\x13¿")
+[ERROR] 2025-06-23 14:29:46,407 django.server 17732 24520 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-06-23 14:35:18,180 django.server 17732 14912 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-06-23 14:35:18,323 django.server 17732 14912 "POST /api/auth/login/ HTTP/1.1" 200 239
+[INFO] 2025-06-23 14:35:18,492 django.server 17732 14912 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:35:18,522 django.server 17732 18404 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:35:18,635 django.server 17732 18404 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:35:18,731 django.server 17732 14912 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:35:18,764 django.server 17732 18404 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:35:18,892 django.server 17732 5944 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:35:18,908 django.server 17732 2004 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:35:19,019 django.server 17732 5944 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:35:19,057 django.server 17732 2004 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:39:58,383 django.server 17732 21636 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:39:58,426 django.server 17732 3600 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:39:58,490 django.server 17732 14188 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:39:58,502 django.server 17732 6840 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:39:58,720 django.server 17732 1212 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:39:58,741 django.server 17732 2592 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:39:58,861 django.server 17732 21636 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:39:58,915 django.server 17732 2592 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:39:58,935 django.server 17732 1212 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:40:33,140 django.server 17732 9360 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:40:33,250 django.server 17732 7452 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:40:33,250 django.server 17732 3324 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:40:33,372 django.server 17732 22684 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:40:33,375 django.server 17732 5104 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:40:33,377 django.server 17732 18564 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:40:33,417 django.server 17732 9360 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:40:33,529 django.server 17732 9360 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:40:33,632 django.server 17732 22684 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:45:43,115 django.server 17732 21988 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:45:43,126 django.server 17732 21484 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:45:43,127 django.server 17732 2348 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:45:43,189 django.server 17732 11732 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:45:43,214 django.server 17732 2952 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:45:43,231 django.server 17732 17120 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:45:43,282 django.server 17732 21484 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:45:43,368 django.server 17732 17120 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:45:43,396 django.server 17732 21484 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:52:09,697 django.server 17732 10252 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:52:09,724 django.server 17732 1792 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:52:09,724 django.server 17732 11376 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:52:09,789 django.server 17732 19028 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:52:09,834 django.server 17732 20576 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:52:09,835 django.server 17732 19288 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:52:09,923 django.server 17732 10252 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:52:09,954 django.server 17732 20576 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:52:10,110 django.server 17732 19288 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:53:52,070 django.server 17732 9684 "GET /api/empresas/315/ HTTP/1.1" 200 8198
+[INFO] 2025-06-23 14:53:52,114 django.server 17732 22388 "GET /api/naturezasjuridicas/ HTTP/1.1" 200 4564
+[INFO] 2025-06-23 14:53:52,115 django.server 17732 13452 "GET /api/cadastro-status/ HTTP/1.1" 200 3296
+[INFO] 2025-06-23 14:53:52,116 django.server 17732 20596 "GET /api/sites/ HTTP/1.1" 200 16317
+[INFO] 2025-06-23 14:53:52,246 django.server 17732 2148 "GET /api/socios/ HTTP/1.1" 200 51372
+[INFO] 2025-06-23 14:53:53,265 django.server 17732 2148 "GET /api/empresas/ HTTP/1.1" 200 224471
+[INFO] 2025-06-23 14:53:57,813 django.server 17732 19192 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:53:57,858 django.server 17732 9684 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:53:57,872 django.server 17732 20596 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:53:57,895 django.server 17732 2148 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:53:57,899 django.server 17732 22388 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:53:57,976 django.server 17732 13452 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:53:58,141 django.server 17732 2148 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:53:58,157 django.server 17732 9684 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:53:59,379 django.server 17732 9684 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:54:26,004 django.server 17732 21640 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-06-23 14:54:26,168 django.server 17732 21640 "POST /api/auth/login/ HTTP/1.1" 200 239
+[INFO] 2025-06-23 14:54:26,432 django.server 17732 21640 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:54:26,476 django.server 17732 7772 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:54:26,574 django.server 17732 21640 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:54:26,610 django.server 17732 7772 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:54:26,715 django.server 17732 14100 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:54:26,731 django.server 17732 24512 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:54:26,744 django.server 17732 7760 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:54:26,872 django.server 17732 7760 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:54:26,894 django.server 17732 24512 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:56:49,308 django.server 17732 22388 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:56:49,413 django.server 17732 24520 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:56:49,420 django.server 17732 17528 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:56:49,433 django.server 17732 11488 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:56:49,488 django.server 17732 19192 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:56:49,600 django.server 17732 23016 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:56:49,814 django.server 17732 22388 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:56:49,902 django.server 17732 23016 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:56:49,999 django.server 17732 22388 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:57:55,613 django.server 17732 23648 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:57:55,626 django.server 17732 6496 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:57:55,892 django.server 17732 23396 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:57:56,088 django.server 17732 1696 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:57:56,175 django.server 17732 7252 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:57:56,255 django.server 17732 24172 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:57:56,761 django.server 17732 23648 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:57:56,879 django.server 17732 24172 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:57:56,917 django.server 17732 23648 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 14:58:26,643 django.server 17732 20812 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 14:58:26,789 django.server 17732 21748 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 14:58:27,157 django.server 17732 240 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 14:58:27,161 django.server 17732 1456 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 14:58:27,255 django.server 17732 17100 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 14:58:27,396 django.server 17732 7072 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 14:58:27,629 django.server 17732 21748 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 14:58:27,797 django.server 17732 20812 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 14:58:28,190 django.server 17732 20812 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:02:55,027 django.server 17732 4772 - Broken pipe from ('167.94.146.58', 47982)
+[WARNING] 2025-06-23 15:02:58,533 django.request 17732 9484 Forbidden: /
+[WARNING] 2025-06-23 15:02:58,534 django.server 17732 9484 "GET / HTTP/1.1" 403 121
+[WARNING] 2025-06-23 15:03:04,297 django.request 17732 9880 Forbidden: /
+[WARNING] 2025-06-23 15:03:04,298 django.server 17732 9880 "GET / HTTP/1.1" 403 41
+[INFO] 2025-06-23 15:03:04,750 django.server 17732 10228 code 505, message Invalid HTTP version (2.0)
+[ERROR] 2025-06-23 15:03:04,750 django.server 17732 10228 "PRI * HTTP/2.0" 505 -
+[WARNING] 2025-06-23 15:03:10,918 django.request 17732 19988 Forbidden: /favicon.ico
+[WARNING] 2025-06-23 15:03:11,125 django.server 17732 19988 "GET /favicon.ico HTTP/1.1" 403 41
+[INFO] 2025-06-23 15:03:11,662 django.server 17732 5552 code 505, message Invalid HTTP version (2.0)
+[ERROR] 2025-06-23 15:03:11,662 django.server 17732 5552 "PRI * HTTP/2.0" 505 -
+[INFO] 2025-06-23 15:03:15,208 django.server 17732 20512 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ó\x01\x00\x00Í\x03\x03€§\x16\x9aAd˜µ3ı<ª¸!\x9aº\x07\x1ab\x8ec\x8f"P⁄a\x99\x04K4∑ˇ')
+[ERROR] 2025-06-23 15:03:15,208 django.server 17732 20512 You're accessing the development server over HTTPS, but it only supports HTTP.
+[WARNING] 2025-06-23 15:03:15,703 django.request 17732 10472 Forbidden: /sitemap.xml
+[WARNING] 2025-06-23 15:03:15,704 django.server 17732 10472 "GET /sitemap.xml HTTP/1.1" 403 41
+[INFO] 2025-06-23 15:04:15,449 django.server 17732 16144 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:04:15,798 django.server 17732 3460 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:04:15,799 django.server 17732 20204 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:04:15,909 django.server 17732 16144 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:04:15,911 django.server 17732 11332 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:04:16,053 django.server 17732 17560 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:04:16,056 django.server 17732 12104 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:04:16,180 django.server 17732 11332 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:04:16,238 django.server 17732 12104 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:04:16,260 django.server 17732 3460 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:04:16,311 django.server 17732 17560 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:04:16,367 django.server 17732 3460 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:04:55,575 django.server 17732 12688 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:04:55,583 django.server 17732 10772 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:04:55,781 django.server 17732 12688 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:04:56,034 django.server 17732 20856 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:04:56,120 django.server 17732 11404 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:04:56,257 django.server 17732 10772 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:04:56,351 django.server 17732 13192 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:04:56,488 django.server 17732 4152 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:04:58,761 django.server 17732 10772 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:04:58,834 django.server 17732 4152 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:04:59,109 django.server 17732 13192 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:04:59,886 django.server 17732 13192 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:05:21,781 django.server 17732 23956 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:05:21,796 django.server 17732 1392 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:05:21,828 django.server 17732 5104 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:05:21,868 django.server 17732 23956 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:05:21,952 django.server 17732 24356 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:05:22,009 django.server 17732 22028 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:05:22,101 django.server 17732 14672 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:05:22,229 django.server 17732 23956 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:05:22,229 django.server 17732 1392 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:05:22,317 django.server 17732 14672 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:05:22,351 django.server 17732 1392 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:05:22,414 django.server 17732 23956 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:06:40,570 django.server 17732 12408 "GET /api/laudos/260/ HTTP/1.1" 200 2809
+[INFO] 2025-06-23 15:06:40,695 django.server 17732 22032 "GET /api/laudos/ HTTP/1.1" 200 153314
+[INFO] 2025-06-23 15:06:41,079 django.server 17732 14652 "GET /api/CADSituacaoAlvara/ HTTP/1.1" 200 2331
+[INFO] 2025-06-23 15:09:38,761 django.utils.autoreload 17732 15956 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\PrinceSistemas\settings.py changed, reloading.
+[INFO] 2025-06-23 15:09:52,597 django.utils.autoreload 6616 17392 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:17:45,357 django.server 6616 17640 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:17:45,382 django.server 6616 11884 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:17:45,406 django.server 6616 3352 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:17:45,423 django.server 6616 11884 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:17:45,462 django.server 6616 18780 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:17:45,514 django.server 6616 7244 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:17:45,530 django.server 6616 9540 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:17:45,570 django.server 6616 11884 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:17:45,595 django.server 6616 17640 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:17:45,729 django.server 6616 11884 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:17:45,750 django.server 6616 7244 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:17:45,765 django.server 6616 17640 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:17:47,645 django.server 6616 17640 "GET /api/empresas/315/ HTTP/1.1" 200 8198
+[INFO] 2025-06-23 15:17:47,672 django.server 6616 11884 "GET /api/cadastro-status/ HTTP/1.1" 200 3296
+[INFO] 2025-06-23 15:17:47,711 django.server 6616 7244 "GET /api/naturezasjuridicas/ HTTP/1.1" 200 4564
+[INFO] 2025-06-23 15:17:47,787 django.server 6616 9540 "GET /api/sites/ HTTP/1.1" 200 16317
+[INFO] 2025-06-23 15:17:47,804 django.server 6616 18780 "GET /api/socios/ HTTP/1.1" 200 51372
+[INFO] 2025-06-23 15:17:47,915 django.server 6616 11884 "GET /api/empresas/ HTTP/1.1" 200 224471
+[INFO] 2025-06-23 15:18:19,588 django.server 6616 11884 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:18:19,592 django.server 6616 9540 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:18:19,603 django.server 6616 18780 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:18:19,637 django.server 6616 11884 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:18:19,705 django.server 6616 7244 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:18:19,772 django.server 6616 17640 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:18:19,879 django.server 6616 9540 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:18:19,914 django.server 6616 11884 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:18:19,939 django.server 6616 3352 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:18:20,167 django.server 6616 9540 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:18:20,231 django.server 6616 3352 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:18:20,243 django.server 6616 11884 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:18:23,404 django.server 6616 17640 "GET /api/sites/ HTTP/1.1" 200 16317
+[INFO] 2025-06-23 15:18:23,444 django.server 6616 9540 "GET /api/cadastro-status/ HTTP/1.1" 200 3296
+[INFO] 2025-06-23 15:18:23,476 django.server 6616 11884 "GET /api/empresas/315/ HTTP/1.1" 200 8198
+[INFO] 2025-06-23 15:18:23,494 django.server 6616 3352 "GET /api/naturezasjuridicas/ HTTP/1.1" 200 4564
+[INFO] 2025-06-23 15:18:23,494 django.server 6616 7244 "GET /api/socios/ HTTP/1.1" 200 51372
+[INFO] 2025-06-23 15:18:23,755 django.server 6616 11884 "GET /api/empresas/ HTTP/1.1" 200 224471
+[INFO] 2025-06-23 15:18:26,791 django.server 6616 7244 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:18:26,825 django.server 6616 11884 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:18:26,860 django.server 6616 3352 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:18:26,872 django.server 6616 11884 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:18:27,031 django.server 6616 7244 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:18:27,041 django.server 6616 17640 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:18:27,062 django.server 6616 9540 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:18:27,121 django.server 6616 18780 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:18:27,186 django.server 6616 11884 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:18:27,310 django.server 6616 7244 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:18:27,357 django.server 6616 18780 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:18:27,390 django.server 6616 11884 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:18:28,651 django.server 6616 7244 "GET /api/laudos/260/ HTTP/1.1" 200 2809
+[INFO] 2025-06-23 15:18:28,660 django.server 6616 18780 "GET /api/CADSituacaoAlvara/ HTTP/1.1" 200 2331
+[INFO] 2025-06-23 15:18:28,681 django.server 6616 11884 "GET /api/laudos/ HTTP/1.1" 200 153314
+[INFO] 2025-06-23 15:25:41,254 django.utils.autoreload 6616 17392 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\Anotacoes\models.py changed, reloading.
+[INFO] 2025-06-23 15:25:42,939 django.utils.autoreload 18260 14340 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:26:01,050 django.utils.autoreload 18260 14340 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\BrasilDistritos\models.py changed, reloading.
+[INFO] 2025-06-23 15:26:02,539 django.utils.autoreload 17340 23404 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:26:15,614 django.utils.autoreload 17340 23404 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\BrasilEstados\models.py changed, reloading.
+[INFO] 2025-06-23 15:26:17,137 django.utils.autoreload 11872 2660 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:26:26,507 django.utils.autoreload 11872 2660 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\BrasilMunicipios\models.py changed, reloading.
+[INFO] 2025-06-23 15:26:28,112 django.utils.autoreload 11312 22536 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:26:36,282 django.utils.autoreload 11312 22536 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\cadastro_status\models.py changed, reloading.
+[INFO] 2025-06-23 15:26:38,039 django.utils.autoreload 18004 14492 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:27:02,436 django.utils.autoreload 18004 14492 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\CADSituacaoAlvara\models.py changed, reloading.
+[INFO] 2025-06-23 15:27:04,070 django.utils.autoreload 22940 10740 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:27:11,882 django.utils.autoreload 22940 10740 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\CNAE\models.py changed, reloading.
+[INFO] 2025-06-23 15:27:13,393 django.utils.autoreload 4292 1240 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:27:23,724 django.utils.autoreload 4292 1240 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\contadores\models.py changed, reloading.
+[INFO] 2025-06-23 15:27:25,268 django.utils.autoreload 1956 17724 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:27:52,717 django.utils.autoreload 1956 17724 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\email\models.py changed, reloading.
+[INFO] 2025-06-23 15:27:54,225 django.utils.autoreload 5912 20020 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:28:11,458 django.utils.autoreload 5912 20020 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\empresas\models.py changed, reloading.
+[INFO] 2025-06-23 15:28:12,911 django.utils.autoreload 23404 7768 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:28:20,945 django.utils.autoreload 23404 7768 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\EventosEmpresa\models.py changed, reloading.
+[INFO] 2025-06-23 15:28:22,443 django.utils.autoreload 13760 7172 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:28:30,968 django.utils.autoreload 13760 7172 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\laudos\models.py changed, reloading.
+[INFO] 2025-06-23 15:28:32,502 django.utils.autoreload 19952 8044 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:28:42,043 django.utils.autoreload 19952 8044 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\login\models.py changed, reloading.
+[INFO] 2025-06-23 15:28:43,567 django.utils.autoreload 18288 10736 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:28:50,432 django.utils.autoreload 18288 10736 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\NaturezaJuridica\models.py changed, reloading.
+[INFO] 2025-06-23 15:28:52,126 django.utils.autoreload 19452 6992 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:29:01,591 django.utils.autoreload 19452 6992 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\parcelamentos\models.py changed, reloading.
+[INFO] 2025-06-23 15:29:03,089 django.utils.autoreload 11572 19328 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:29:10,288 django.utils.autoreload 11572 19328 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\Sites\models.py changed, reloading.
+[INFO] 2025-06-23 15:29:11,686 django.utils.autoreload 12896 20056 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:29:19,913 django.utils.autoreload 12896 20056 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\socios\models.py changed, reloading.
+[INFO] 2025-06-23 15:29:21,387 django.utils.autoreload 22428 9196 Watching for file changes with StatReloader
+[INFO] 2025-06-23 15:29:45,704 django.server 22428 22568 "GET /api/laudos/260/ HTTP/1.1" 200 2809
+[INFO] 2025-06-23 15:29:45,974 django.server 22428 17884 "GET /api/CADSituacaoAlvara/ HTTP/1.1" 200 2331
+[INFO] 2025-06-23 15:29:45,974 django.server 22428 4696 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:30:36,468 django.server 22428 17884 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:30:36,544 django.server 22428 15128 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:30:36,587 django.server 22428 15128 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:30:36,595 django.server 22428 22568 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:30:36,626 django.server 22428 4696 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:30:36,752 django.server 22428 17884 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:30:36,792 django.server 22428 24404 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:30:36,809 django.server 22428 17640 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:30:36,844 django.server 22428 22568 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:30:36,968 django.server 22428 17640 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:30:37,010 django.server 22428 24404 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:30:37,010 django.server 22428 22568 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:33:30,844 django.server 22428 22568 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:33:30,851 django.server 22428 17884 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:33:30,929 django.server 22428 24404 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:33:30,971 django.server 22428 17640 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:33:31,296 django.server 22428 4696 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:33:31,392 django.server 22428 15128 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:33:31,402 django.server 22428 13716 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:33:31,433 django.server 22428 5360 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:33:31,475 django.server 22428 5360 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:33:31,538 django.server 22428 17420 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:33:31,586 django.server 22428 22992 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:33:31,594 django.server 22428 22940 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:33:31,690 django.server 22428 11188 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:33:31,722 django.server 22428 13716 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:33:31,730 django.server 22428 5360 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:33:31,811 django.server 22428 11188 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:33:31,851 django.server 22428 5360 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:33:31,886 django.server 22428 13716 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:35:07,628 django.server 22428 1748 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:35:07,674 django.server 22428 14920 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:35:07,707 django.server 22428 14948 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:35:07,724 django.server 22428 14920 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:35:07,747 django.server 22428 912 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:35:07,793 django.server 22428 21336 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:35:07,924 django.server 22428 1748 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:35:07,966 django.server 22428 15292 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:35:07,967 django.server 22428 912 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:35:08,067 django.server 22428 1748 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:35:08,104 django.server 22428 15292 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:35:08,112 django.server 22428 912 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:35:14,534 django.server 22428 912 "POST /api/auth/login/ HTTP/1.1" 200 239
+[INFO] 2025-06-23 15:35:14,714 django.server 22428 912 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:35:14,806 django.server 22428 1748 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:35:14,855 django.server 22428 1748 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:35:14,864 django.server 22428 15292 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:35:14,905 django.server 22428 14948 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:35:14,926 django.server 22428 21336 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:35:15,059 django.server 22428 14920 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:35:15,105 django.server 22428 912 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:35:15,165 django.server 22428 1748 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:35:15,166 django.server 22428 14948 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:35:15,244 django.server 22428 912 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:35:15,275 django.server 22428 1748 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:39:33,905 django.server 22428 912 "GET /api/naturezasjuridicas/ HTTP/1.1" 200 4564
+[INFO] 2025-06-23 15:39:33,921 django.server 22428 14948 "GET /api/cadastro-status/ HTTP/1.1" 200 3296
+[INFO] 2025-06-23 15:39:33,935 django.server 22428 14920 "GET /api/sites/ HTTP/1.1" 200 16317
+[INFO] 2025-06-23 15:39:33,993 django.server 22428 1748 "GET /api/empresas/315/ HTTP/1.1" 200 8198
+[INFO] 2025-06-23 15:39:34,021 django.server 22428 15292 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:39:34,165 django.server 22428 1748 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:39:36,705 django.server 22428 15292 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:39:36,705 django.server 22428 14920 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:39:36,746 django.server 22428 1748 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:39:36,766 django.server 22428 14948 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:39:36,790 django.server 22428 21336 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:39:36,810 django.server 22428 14920 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:39:36,810 django.server 22428 912 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:39:36,999 django.server 22428 15292 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:39:37,034 django.server 22428 912 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:39:37,042 django.server 22428 14920 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:39:37,126 django.server 22428 15292 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:39:37,197 django.server 22428 912 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:39:41,618 django.server 22428 912 "GET /api/telefoneorgaopublico/telefones/ HTTP/1.1" 200 17621
+[INFO] 2025-06-23 15:40:06,738 django.server 22428 912 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:40:06,795 django.server 22428 1748 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:40:06,821 django.server 22428 14920 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:40:06,849 django.server 22428 1748 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:40:06,885 django.server 22428 14948 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:40:06,902 django.server 22428 15292 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:40:06,917 django.server 22428 21336 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:40:07,046 django.server 22428 912 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:40:07,046 django.server 22428 14948 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:40:07,060 django.server 22428 1748 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:40:07,167 django.server 22428 1748 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:40:07,168 django.server 22428 14948 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:40:12,727 django.server 22428 1748 "GET /api/empresas/315/ HTTP/1.1" 200 8198
+[INFO] 2025-06-23 15:40:12,745 django.server 22428 14948 "GET /api/naturezasjuridicas/ HTTP/1.1" 200 4564
+[INFO] 2025-06-23 15:40:12,818 django.server 22428 912 "GET /api/cadastro-status/ HTTP/1.1" 200 3296
+[INFO] 2025-06-23 15:40:12,904 django.server 22428 15292 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:40:12,929 django.server 22428 21336 "GET /api/sites/ HTTP/1.1" 200 16317
+[INFO] 2025-06-23 15:40:13,070 django.server 22428 14948 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:40:14,580 django.server 22428 15292 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:40:14,590 django.server 22428 21336 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:40:14,671 django.server 22428 21336 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:40:14,760 django.server 22428 912 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:40:14,792 django.server 22428 14948 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:40:14,849 django.server 22428 1748 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:40:14,880 django.server 22428 21336 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:40:14,880 django.server 22428 15292 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:40:14,958 django.server 22428 14920 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:40:15,034 django.server 22428 21336 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:40:15,035 django.server 22428 15292 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:40:15,093 django.server 22428 14920 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:45:25,756 django.server 22428 7956 "POST /api/auth/login/ HTTP/1.1" 200 239
+[INFO] 2025-06-23 15:45:26,034 django.server 22428 7956 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 15:45:26,123 django.server 22428 13988 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 15:45:26,154 django.server 22428 13988 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:45:26,155 django.server 22428 7956 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 15:45:26,299 django.server 22428 13988 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 15:45:26,333 django.server 22428 7956 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 15:45:26,346 django.server 22428 16672 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 15:45:26,403 django.server 22428 9484 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 15:45:26,431 django.server 22428 19988 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 15:45:26,457 django.server 22428 5012 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 15:45:26,493 django.server 22428 13988 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 15:45:26,650 django.server 22428 5012 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:45:29,437 django.server 22428 8036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:45:29,479 django.server 22428 23764 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:45:29,541 django.server 22428 1856 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:45:29,594 django.server 22428 13544 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:45:46,343 django.server 22428 13780 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:45:46,379 django.server 22428 22720 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:45:46,415 django.server 22428 8220 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:45:46,430 django.server 22428 14784 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:48:55,012 django.server 22428 21272 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:48:55,060 django.server 22428 7660 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:48:55,060 django.server 22428 12408 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:48:55,062 django.server 22428 24440 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:51:39,804 django.server 22428 4740 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:51:40,054 django.server 22428 4740 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:51:40,179 django.server 22428 4740 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:51:40,368 django.server 22428 4740 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:51:52,606 django.server 22428 9616 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:51:52,721 django.server 22428 9616 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:51:52,833 django.server 22428 9616 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:51:52,941 django.server 22428 9616 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:54:01,871 django.server 22428 21192 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:54:02,039 django.server 22428 21192 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:54:02,132 django.server 22428 21192 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:54:02,226 django.server 22428 21192 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:54:04,738 django.server 22428 5536 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:54:04,769 django.server 22428 11316 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:54:04,792 django.server 22428 23056 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:54:04,821 django.server 22428 24412 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:54:04,951 django.server 22428 5536 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:54:04,993 django.server 22428 11316 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:54:05,000 django.server 22428 14188 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:54:05,013 django.server 22428 23056 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:54:08,057 django.server 22428 14188 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:54:08,069 django.server 22428 11316 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:54:08,117 django.server 22428 23056 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:54:08,144 django.server 22428 5536 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:54:08,218 django.server 22428 11316 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:54:08,270 django.server 22428 14188 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:54:08,316 django.server 22428 23056 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:54:08,353 django.server 22428 24412 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:54:59,720 django.server 22428 19076 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:54:59,905 django.server 22428 19076 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:00,082 django.server 22428 19076 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:00,212 django.server 22428 19076 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:09,752 django.server 22428 12356 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:09,788 django.server 22428 22860 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:09,792 django.server 22428 11580 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:09,910 django.server 22428 23972 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:09,916 django.server 22428 12356 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:09,943 django.server 22428 22860 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:09,951 django.server 22428 11580 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:10,079 django.server 22428 21220 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:10,092 django.server 22428 12356 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:10,145 django.server 22428 23972 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:10,165 django.server 22428 22860 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:10,269 django.server 22428 11580 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:10,295 django.server 22428 21220 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:10,336 django.server 22428 12356 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:10,374 django.server 22428 18068 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:10,427 django.server 22428 11580 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:13,505 django.server 22428 14036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:13,534 django.server 22428 7180 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:13,535 django.server 22428 8036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:13,555 django.server 22428 20256 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:23,431 django.server 22428 20256 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:23,460 django.server 22428 14036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:23,493 django.server 22428 8036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:23,494 django.server 22428 7180 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:24,161 django.server 22428 7180 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:24,198 django.server 22428 20256 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:24,286 django.server 22428 8036 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:24,304 django.server 22428 14036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:35,161 django.server 22428 7180 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:35,179 django.server 22428 14036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:35,180 django.server 22428 8036 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:35,208 django.server 22428 20256 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:42,866 django.server 22428 14036 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:42,924 django.server 22428 20256 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:42,955 django.server 22428 8036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:42,968 django.server 22428 7180 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:43,004 django.server 22428 1544 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:43,074 django.server 22428 14036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:43,109 django.server 22428 20256 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:43,200 django.server 22428 8036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:43,256 django.server 22428 7180 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:43,260 django.server 22428 1544 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:43,273 django.server 22428 14036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:43,339 django.server 22428 20256 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:43,451 django.server 22428 8036 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:43,498 django.server 22428 1544 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:43,514 django.server 22428 7180 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:43,514 django.server 22428 14036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:46,083 django.server 22428 1544 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:46,102 django.server 22428 7180 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:46,105 django.server 22428 14036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:46,130 django.server 22428 8036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:46,325 django.server 22428 8036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:46,362 django.server 22428 14036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:46,364 django.server 22428 7180 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:46,391 django.server 22428 1544 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:48,854 django.server 22428 14036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:48,918 django.server 22428 7180 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:48,919 django.server 22428 1544 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:48,935 django.server 22428 8036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:49,027 django.server 22428 14036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:49,078 django.server 22428 20256 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:49,123 django.server 22428 7180 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:49,123 django.server 22428 17736 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:50,187 django.server 22428 7180 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:50,222 django.server 22428 17736 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:50,239 django.server 22428 20256 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:50,255 django.server 22428 14036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:58,525 django.server 22428 20256 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:58,526 django.server 22428 14036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:58,570 django.server 22428 17736 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:58,571 django.server 22428 7180 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:58,721 django.server 22428 20256 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:58,770 django.server 22428 1544 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:58,771 django.server 22428 14036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:58,800 django.server 22428 8036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:58,909 django.server 22428 7180 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:58,956 django.server 22428 17736 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:58,974 django.server 22428 20256 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:58,993 django.server 22428 1544 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:59,105 django.server 22428 7180 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:59,191 django.server 22428 20256 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:59,192 django.server 22428 17736 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:59,201 django.server 22428 8036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:55:59,250 django.server 22428 1544 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:55:59,352 django.server 22428 7180 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:55:59,402 django.server 22428 20256 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:55:59,420 django.server 22428 14036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:01,685 django.server 22428 14036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:01,736 django.server 22428 7180 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:56:01,736 django.server 22428 20256 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:56:01,766 django.server 22428 1544 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:56:01,825 django.server 22428 8036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:01,921 django.server 22428 17736 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:56:01,942 django.server 22428 14036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:56:01,962 django.server 22428 20256 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:56:02,014 django.server 22428 1544 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:02,103 django.server 22428 17736 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:56:02,107 django.server 22428 8036 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:56:02,151 django.server 22428 14036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:56:02,204 django.server 22428 20256 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:02,244 django.server 22428 1544 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:56:02,304 django.server 22428 8036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:56:02,304 django.server 22428 17736 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:56:03,259 django.server 22428 8036 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:56:03,260 django.server 22428 1544 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:56:03,263 django.server 22428 17736 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:03,286 django.server 22428 20256 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:56:03,384 django.server 22428 14036 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:56:03,402 django.server 22428 7180 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:56:03,450 django.server 22428 1544 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:03,467 django.server 22428 17736 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:56:03,517 django.server 22428 20256 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:56:03,548 django.server 22428 14036 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:56:03,714 django.server 22428 7180 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:03,718 django.server 22428 20256 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:56:03,753 django.server 22428 1544 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:56:03,753 django.server 22428 8036 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:56:03,849 django.server 22428 14036 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:56:04,064 django.server 22428 20256 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:57:49,066 django.server 22428 10452 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:57:49,177 django.server 22428 10452 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:57:49,369 django.server 22428 10452 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:57:49,558 django.server 22428 10452 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:57:51,390 django.server 22428 10452 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:57:51,418 django.server 22428 19320 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:57:51,505 django.server 22428 10452 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:57:51,525 django.server 22428 19320 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:57:51,678 django.server 22428 19320 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 15:57:51,681 django.server 22428 10452 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 15:57:51,718 django.server 22428 21428 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:57:51,754 django.server 22428 18888 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:57:51,815 django.server 22428 19320 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:57:51,856 django.server 22428 10452 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 15:57:51,946 django.server 22428 3432 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:57:51,976 django.server 22428 18888 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 15:57:51,979 django.server 22428 21428 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 15:57:51,999 django.server 22428 10548 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 15:57:52,027 django.server 22428 10452 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 15:57:52,145 django.server 22428 3432 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 15:57:52,201 django.server 22428 18888 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 15:57:52,208 django.server 22428 19320 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 15:57:52,275 django.server 22428 21428 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 15:57:52,298 django.server 22428 10548 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 15:57:52,329 django.server 22428 10452 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 15:57:52,368 django.server 22428 3432 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 15:57:52,386 django.server 22428 19320 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 15:57:52,462 django.server 22428 18888 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 15:57:52,487 django.server 22428 21428 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 15:57:52,574 django.server 22428 10452 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 15:57:52,582 django.server 22428 10548 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 15:57:52,648 django.server 22428 19320 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 15:57:52,682 django.server 22428 21428 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 15:57:52,691 django.server 22428 18888 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 15:57:52,773 django.server 22428 10548 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 15:57:52,824 django.server 22428 19320 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 15:57:52,906 django.server 22428 18888 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 15:57:53,011 django.server 22428 19320 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 15:57:53,071 django.server 22428 10548 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 15:57:53,208 django.server 22428 10548 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 15:57:53,308 django.server 22428 19320 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 15:57:53,453 django.server 22428 10548 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 15:57:53,521 django.server 22428 18888 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 15:57:53,589 django.server 22428 21428 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 15:57:53,666 django.server 22428 10452 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:57:53,694 django.server 22428 19320 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 15:57:53,735 django.server 22428 10548 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 15:57:53,905 django.server 22428 18888 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 15:57:53,948 django.server 22428 19320 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 15:57:54,004 django.server 22428 10548 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 15:57:54,044 django.server 22428 18888 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 15:57:54,075 django.server 22428 19320 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 15:57:54,175 django.server 22428 10548 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 15:57:54,218 django.server 22428 18888 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 15:57:54,243 django.server 22428 19320 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 15:57:54,373 django.server 22428 10548 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 15:57:54,412 django.server 22428 18888 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 15:57:54,620 django.server 22428 10548 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 15:57:54,670 django.server 22428 18888 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 15:57:54,776 django.server 22428 10548 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 15:57:54,901 django.server 22428 10548 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 15:57:57,284 django.server 22428 18888 "GET /api/naturezasjuridicas/ HTTP/1.1" 200 4564
+[INFO] 2025-06-23 15:57:57,309 django.server 22428 19320 "GET /api/cadastro-status/ HTTP/1.1" 200 3296
+[INFO] 2025-06-23 15:57:57,336 django.server 22428 10452 "GET /api/sites/ HTTP/1.1" 200 16317
+[INFO] 2025-06-23 15:57:57,355 django.server 22428 21428 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 15:57:57,382 django.server 22428 10548 "GET /api/empresas/4/ HTTP/1.1" 200 6135
+[INFO] 2025-06-23 15:57:57,537 django.server 22428 10548 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 16:58:45,060 django.server 22428 20852 "GET /api/empresas/?avisardia=2025-06-23 HTTP/1.1" 200 52
+[INFO] 2025-06-23 16:58:45,460 django.server 22428 21188 "GET /api/parcelamentos/?para_fazer=true HTTP/1.1" 200 52
+[INFO] 2025-06-23 16:58:45,460 django.server 22428 12688 "GET /api/parcelamentos-mensal/?avisardia=2025-06-23&finalizames=Junho HTTP/1.1" 200 22032
+[INFO] 2025-06-23 16:58:45,461 django.server 22428 14524 "GET /api/avisos-parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 2
+[INFO] 2025-06-23 16:58:45,491 django.server 22428 10972 "GET /api/avisos-empresas/?avisardia=2025-06-23 HTTP/1.1" 200 204
+[INFO] 2025-06-23 16:58:45,533 django.server 22428 20852 "GET /api/empresas/?prioridade=true HTTP/1.1" 200 6187
+[INFO] 2025-06-23 16:58:45,533 django.server 22428 21960 "GET /api/empresas/?lembrete=true HTTP/1.1" 200 55018
+[INFO] 2025-06-23 16:58:45,614 django.server 22428 14524 "GET /api/avisos-laudos/?avisardia=2025-06-23 HTTP/1.1" 200 161
+[INFO] 2025-06-23 16:58:45,647 django.server 22428 21188 "GET /api/laudos/?avisardia=2025-06-23 HTTP/1.1" 200 2861
+[INFO] 2025-06-23 16:58:45,709 django.server 22428 21960 "GET /api/laudos/?prioridade=true HTTP/1.1" 200 35951
+[INFO] 2025-06-23 16:58:45,709 django.server 22428 20852 "GET /api/laudos/?lembrete=true HTTP/1.1" 200 86445
+[INFO] 2025-06-23 16:58:45,753 django.server 22428 21188 "GET /api/parcelamentos/?avisardia=2025-06-23 HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:02:11,852 django.server 22428 21188 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:02:12,021 django.server 22428 21188 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:02:12,256 django.server 22428 21188 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:02:12,487 django.server 22428 21188 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:02:14,142 django.server 22428 21188 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:02:14,187 django.server 22428 21960 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:02:14,189 django.server 22428 14524 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:02:14,219 django.server 22428 20852 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:02:14,312 django.server 22428 10972 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:02:14,367 django.server 22428 21188 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:02:14,396 django.server 22428 21960 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:02:14,413 django.server 22428 14524 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:02:14,447 django.server 22428 20852 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:02:14,460 django.server 22428 12688 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:02:14,510 django.server 22428 10972 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:02:14,604 django.server 22428 21960 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:02:14,658 django.server 22428 21188 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:02:14,661 django.server 22428 14524 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:02:14,673 django.server 22428 20852 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:02:14,748 django.server 22428 12688 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:02:14,792 django.server 22428 10972 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:02:14,829 django.server 22428 21960 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:02:14,861 django.server 22428 21188 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:02:14,924 django.server 22428 12688 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:02:14,961 django.server 22428 14524 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:02:14,988 django.server 22428 20852 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:02:15,071 django.server 22428 21960 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:02:15,073 django.server 22428 10972 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:02:15,102 django.server 22428 21188 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:02:15,130 django.server 22428 12688 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:02:15,185 django.server 22428 14524 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:02:15,207 django.server 22428 20852 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:02:15,259 django.server 22428 10972 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:02:15,299 django.server 22428 21188 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:02:15,350 django.server 22428 14524 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:02:15,442 django.server 22428 12688 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:02:15,476 django.server 22428 20852 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:02:15,490 django.server 22428 21960 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:02:15,515 django.server 22428 21188 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:02:15,530 django.server 22428 10972 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:02:15,580 django.server 22428 14524 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:02:15,633 django.server 22428 12688 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:02:15,692 django.server 22428 20852 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:02:15,725 django.server 22428 21960 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:02:15,821 django.server 22428 10972 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:02:15,856 django.server 22428 12688 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:02:15,871 django.server 22428 21188 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:02:15,876 django.server 22428 14524 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:02:15,895 django.server 22428 20852 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:02:15,985 django.server 22428 21960 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:02:16,024 django.server 22428 12688 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:02:16,050 django.server 22428 10972 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:02:16,147 django.server 22428 20852 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:02:16,219 django.server 22428 21188 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:02:16,241 django.server 22428 14524 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:02:16,315 django.server 22428 12688 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:02:16,316 django.server 22428 10972 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:02:16,326 django.server 22428 21960 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:02:16,394 django.server 22428 21188 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:02:16,431 django.server 22428 20852 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:02:16,453 django.server 22428 14524 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:02:16,490 django.server 22428 12688 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:02:16,561 django.server 22428 21960 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:02:16,577 django.server 22428 21188 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:02:16,633 django.server 22428 10972 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:02:16,665 django.server 22428 20852 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:02:16,728 django.server 22428 14524 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:02:16,782 django.server 22428 21960 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:02:16,830 django.server 22428 12688 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:02:16,833 django.server 22428 21188 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:02:16,875 django.server 22428 10972 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:02:16,917 django.server 22428 20852 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:02:16,941 django.server 22428 14524 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:02:17,005 django.server 22428 21960 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:02:17,038 django.server 22428 21188 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:02:17,144 django.server 22428 14524 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:02:17,147 django.server 22428 10972 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:02:17,178 django.server 22428 12688 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:02:17,215 django.server 22428 20852 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:02:17,243 django.server 22428 21960 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:02:17,288 django.server 22428 21188 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:02:17,417 django.server 22428 12688 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:02:17,484 django.server 22428 21960 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:02:17,485 django.server 22428 20852 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:02:17,488 django.server 22428 10972 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:02:17,504 django.server 22428 14524 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:02:17,546 django.server 22428 21188 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:02:17,576 django.server 22428 12688 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:02:17,723 django.server 22428 20852 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 17:02:17,827 django.server 22428 14524 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:02:17,828 django.server 22428 10972 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:02:17,829 django.server 22428 21188 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:02:17,836 django.server 22428 21960 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:02:17,856 django.server 22428 12688 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:02:17,993 django.server 22428 20852 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:02:18,112 django.server 22428 21188 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:02:18,179 django.server 22428 14524 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:02:18,189 django.server 22428 10972 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:02:18,235 django.server 22428 21960 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:02:18,442 django.server 22428 12688 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:02:18,448 django.server 22428 20852 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:02:18,534 django.server 22428 21188 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 17:02:18,545 django.server 22428 10972 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:02:18,549 django.server 22428 14524 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:02:18,588 django.server 22428 21960 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:02:18,631 django.server 22428 12688 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:02:18,659 django.server 22428 20852 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:02:18,796 django.server 22428 21188 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:02:18,828 django.server 22428 10972 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:02:18,835 django.server 22428 12688 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:02:18,904 django.server 22428 21960 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 17:02:18,906 django.server 22428 14524 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:02:18,979 django.server 22428 21188 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:02:19,068 django.server 22428 12688 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:02:19,108 django.server 22428 14524 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 17:02:19,199 django.server 22428 21188 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:02:19,238 django.server 22428 12688 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 17:02:19,340 django.server 22428 21188 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[WARNING] 2025-06-23 17:02:20,934 django.request 22428 10972 Forbidden: /api/socios/
+[WARNING] 2025-06-23 17:02:20,934 django.request 22428 14524 Forbidden: /api/sites/
+[WARNING] 2025-06-23 17:02:20,936 django.request 22428 21960 Forbidden: /api/cadastro-status/
+[WARNING] 2025-06-23 17:02:20,938 django.server 22428 14524 "GET /api/sites/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:02:20,939 django.server 22428 10972 "GET /api/socios/ HTTP/1.1" 403 127
+[INFO] 2025-06-23 17:02:20,950 django.server 22428 21188 "GET /api/empresas/322/ HTTP/1.1" 200 5624
+[WARNING] 2025-06-23 17:02:20,951 django.server 22428 21960 "GET /api/cadastro-status/ HTTP/1.1" 403 127
+[INFO] 2025-06-23 17:02:20,957 django.server 22428 12688 "GET /api/naturezasjuridicas/ HTTP/1.1" 200 4564
+[WARNING] 2025-06-23 17:02:20,989 django.request 22428 12688 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:02:20,989 django.server 22428 12688 "GET /api/empresas/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:09,825 django.request 22428 21188 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:03:09,826 django.server 22428 21188 "GET /api/empresas/ HTTP/1.1" 403 127
+[INFO] 2025-06-23 17:03:17,551 django.server 22428 20852 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:03:17,782 django.server 22428 20852 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:03:17,885 django.server 22428 20852 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:03:17,983 django.server 22428 20852 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:03:19,817 django.server 22428 20852 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:03:19,913 django.server 22428 20852 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:03:20,145 django.server 22428 20852 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:03:20,159 django.server 22428 12224 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:03:20,159 django.server 22428 8708 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:03:20,200 django.server 22428 9584 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:03:20,295 django.server 22428 12224 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:03:20,330 django.server 22428 20852 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:03:20,359 django.server 22428 8708 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:03:20,385 django.server 22428 18512 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:03:20,425 django.server 22428 14416 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:03:20,462 django.server 22428 9584 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:03:20,503 django.server 22428 12224 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:03:20,562 django.server 22428 20852 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:03:20,578 django.server 22428 18512 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:03:20,654 django.server 22428 9584 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:03:20,675 django.server 22428 14416 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:03:20,680 django.server 22428 8708 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:03:20,727 django.server 22428 12224 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:03:20,751 django.server 22428 20852 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:03:20,790 django.server 22428 18512 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:03:20,856 django.server 22428 9584 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:03:20,927 django.server 22428 14416 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:03:20,993 django.server 22428 12224 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:03:21,040 django.server 22428 18512 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:03:21,076 django.server 22428 20852 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:03:21,077 django.server 22428 9584 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:03:21,080 django.server 22428 8708 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:03:21,153 django.server 22428 12224 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:03:21,180 django.server 22428 14416 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:03:21,334 django.server 22428 8708 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:03:21,335 django.server 22428 9584 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:03:21,339 django.server 22428 18512 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:03:21,352 django.server 22428 20852 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:03:21,398 django.server 22428 14416 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:03:21,453 django.server 22428 12224 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:03:21,552 django.server 22428 8708 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:03:21,553 django.server 22428 9584 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:03:21,630 django.server 22428 18512 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:03:21,655 django.server 22428 12224 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:03:21,660 django.server 22428 20852 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:03:21,706 django.server 22428 14416 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:03:21,741 django.server 22428 9584 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:03:21,758 django.server 22428 8708 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:03:21,850 django.server 22428 18512 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:03:21,858 django.server 22428 12224 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:03:21,915 django.server 22428 20852 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:03:21,978 django.server 22428 14416 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:03:22,010 django.server 22428 9584 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:03:22,014 django.server 22428 8708 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:03:22,075 django.server 22428 18512 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:03:22,089 django.server 22428 12224 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:03:22,142 django.server 22428 20852 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:03:22,182 django.server 22428 9584 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:03:22,212 django.server 22428 14416 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:03:22,236 django.server 22428 8708 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:03:22,403 django.server 22428 18512 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:03:22,432 django.server 22428 9584 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:03:22,441 django.server 22428 14416 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:03:22,445 django.server 22428 20852 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:03:22,464 django.server 22428 12224 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:03:22,466 django.server 22428 8708 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:03:22,661 django.server 22428 18512 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:03:22,666 django.server 22428 9584 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:03:22,668 django.server 22428 14416 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:03:22,707 django.server 22428 12224 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 17:03:22,755 django.server 22428 8708 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:03:22,756 django.server 22428 20852 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:03:22,867 django.server 22428 9584 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:03:22,896 django.server 22428 14416 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:03:22,914 django.server 22428 12224 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:03:22,976 django.server 22428 8708 "GET /api/laudos/ HTTP/1.1" 200 161444
+[INFO] 2025-06-23 17:03:23,022 django.server 22428 18512 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:03:23,065 django.server 22428 20852 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:03:23,092 django.server 22428 14416 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:03:23,147 django.server 22428 9584 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:03:23,195 django.server 22428 12224 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:03:23,217 django.server 22428 8708 "GET /api/empresas/ HTTP/1.1" 200 253971
+[INFO] 2025-06-23 17:03:23,287 django.server 22428 18512 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:03:23,330 django.server 22428 14416 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:03:23,334 django.server 22428 20852 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:03:23,359 django.server 22428 9584 "GET /api/parcelamentos/ HTTP/1.1" 200 103447
+[INFO] 2025-06-23 17:03:23,377 django.server 22428 12224 "GET /api/socios/ HTTP/1.1" 200 51349
+[INFO] 2025-06-23 17:03:23,420 django.server 22428 8708 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:03:23,513 django.server 22428 18512 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:03:23,547 django.server 22428 20852 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:03:23,643 django.server 22428 12224 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 17:03:23,674 django.server 22428 8708 "GET /api/empresas/?page=7 HTTP/1.1" 200 224349
+[INFO] 2025-06-23 17:03:23,715 django.server 22428 14416 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:03:23,726 django.server 22428 9584 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:03:23,760 django.server 22428 18512 "GET /api/laudos/?page=2 HTTP/1.1" 200 149984
+[INFO] 2025-06-23 17:03:23,798 django.server 22428 20852 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:03:23,840 django.server 22428 12224 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:03:23,922 django.server 22428 8708 "GET /api/empresas/?page=2 HTTP/1.1" 200 230061
+[INFO] 2025-06-23 17:03:23,987 django.server 22428 18512 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:03:24,012 django.server 22428 14416 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:03:24,017 django.server 22428 9584 "GET /api/socios/?page=2 HTTP/1.1" 200 52115
+[INFO] 2025-06-23 17:03:24,029 django.server 22428 20852 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:03:24,087 django.server 22428 12224 "GET /api/empresas/?page=8 HTTP/1.1" 200 138825
+[INFO] 2025-06-23 17:03:24,275 django.server 22428 14416 "GET /api/laudos/?page=3 HTTP/1.1" 200 151697
+[INFO] 2025-06-23 17:03:24,344 django.server 22428 18512 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[INFO] 2025-06-23 17:03:24,344 django.server 22428 20852 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:03:24,371 django.server 22428 8708 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:03:24,381 django.server 22428 9584 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[INFO] 2025-06-23 17:03:24,387 django.server 22428 12224 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[INFO] 2025-06-23 17:03:24,447 django.server 22428 14416 "GET /api/socios/?page=4 HTTP/1.1" 200 28474
+[INFO] 2025-06-23 17:03:24,550 django.server 22428 18512 "GET /api/socios/?page=3 HTTP/1.1" 200 51633
+[INFO] 2025-06-23 17:03:24,557 django.server 22428 20852 "GET /api/empresas/?page=3 HTTP/1.1" 200 235545
+[INFO] 2025-06-23 17:03:24,567 django.server 22428 8708 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[INFO] 2025-06-23 17:03:24,606 django.server 22428 9584 "GET /api/empresas/?page=4 HTTP/1.1" 200 235985
+[WARNING] 2025-06-23 17:03:24,650 django.request 22428 9584 Forbidden: /api/socios/
+[INFO] 2025-06-23 17:03:24,685 django.server 22428 12224 "GET /api/laudos/?page=4 HTTP/1.1" 200 136033
+[INFO] 2025-06-23 17:03:24,689 django.server 22428 14416 "GET /api/empresas/?page=5 HTTP/1.1" 200 223042
+[WARNING] 2025-06-23 17:03:24,691 django.server 22428 9584 "GET /api/socios/?page=4 HTTP/1.1" 403 127
+[INFO] 2025-06-23 17:03:24,747 django.server 22428 8708 "GET /api/laudos/?page=5 HTTP/1.1" 200 136778
+[WARNING] 2025-06-23 17:03:24,767 django.request 22428 12224 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:03:24,767 django.request 22428 14416 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:03:24,782 django.server 22428 12224 "GET /api/empresas/?page=4 HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:24,810 django.request 22428 8708 Forbidden: /api/laudos/
+[WARNING] 2025-06-23 17:03:24,821 django.server 22428 14416 "GET /api/empresas/?page=5 HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:24,843 django.server 22428 8708 "GET /api/laudos/?page=5 HTTP/1.1" 403 127
+[INFO] 2025-06-23 17:03:24,843 django.server 22428 18512 "GET /api/empresas/?page=6 HTTP/1.1" 200 264808
+[INFO] 2025-06-23 17:03:24,859 django.server 22428 20852 "GET /api/laudos/?page=6 HTTP/1.1" 200 25308
+[WARNING] 2025-06-23 17:03:24,863 django.request 22428 18512 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:03:24,869 django.server 22428 18512 "GET /api/empresas/?page=6 HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:24,875 django.request 22428 20852 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:03:24,876 django.server 22428 20852 "GET /api/empresas/?page=7 HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:25,028 django.request 22428 19708 Forbidden: /api/laudos/
+[WARNING] 2025-06-23 17:03:25,029 django.server 22428 19708 "GET /api/laudos/?page=6 HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:28,494 django.request 22428 22512 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:03:28,495 django.request 22428 23108 Forbidden: /api/laudos/
+[WARNING] 2025-06-23 17:03:28,495 django.server 22428 22512 "GET /api/empresas/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:28,496 django.request 22428 19028 Forbidden: /api/parcelamentos/
+[WARNING] 2025-06-23 17:03:28,496 django.server 22428 23108 "GET /api/laudos/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:28,496 django.server 22428 19028 "GET /api/parcelamentos/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:28,802 django.request 22428 7892 Forbidden: /api/socios/
+[WARNING] 2025-06-23 17:03:28,803 django.server 22428 7892 "GET /api/socios/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:30,940 django.request 22428 9488 Forbidden: /api/parcelamentos/
+[WARNING] 2025-06-23 17:03:30,940 django.request 22428 11508 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:03:30,941 django.server 22428 9488 "GET /api/parcelamentos/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:30,941 django.request 22428 10660 Forbidden: /api/socios/
+[WARNING] 2025-06-23 17:03:30,941 django.server 22428 11508 "GET /api/empresas/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:30,943 django.request 22428 24172 Forbidden: /api/laudos/
+[WARNING] 2025-06-23 17:03:30,944 django.server 22428 10660 "GET /api/socios/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:30,945 django.server 22428 24172 "GET /api/laudos/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:32,860 django.request 22428 22096 Forbidden: /api/empresas/
+[WARNING] 2025-06-23 17:03:32,860 django.server 22428 22096 "GET /api/empresas/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:33,168 django.request 22428 7388 Forbidden: /api/socios/
+[WARNING] 2025-06-23 17:03:33,169 django.request 22428 21664 Forbidden: /api/parcelamentos/
+[WARNING] 2025-06-23 17:03:33,170 django.server 22428 7388 "GET /api/socios/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:33,170 django.request 22428 6972 Forbidden: /api/laudos/
+[WARNING] 2025-06-23 17:03:33,171 django.server 22428 21664 "GET /api/parcelamentos/ HTTP/1.1" 403 127
+[WARNING] 2025-06-23 17:03:33,175 django.server 22428 6972 "GET /api/laudos/ HTTP/1.1" 403 127
+[INFO] 2025-06-23 17:05:35,185 django.utils.autoreload 22428 9196 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\PrinceSistemas\middleware.py changed, reloading.
+[INFO] 2025-06-23 17:05:50,154 django.utils.autoreload 2576 13452 Watching for file changes with StatReloader

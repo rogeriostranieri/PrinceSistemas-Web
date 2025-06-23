@@ -12,5 +12,6 @@ class BrasilDistritos(models.Model):
         return self.nome
 
     class Meta:
+        ordering = ['id']
         db_table = 'BrasilDistritos'
         managed = False  # Django não gerencia esta tabela

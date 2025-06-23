@@ -19,6 +19,7 @@ class Login(models.Model):
     class Meta:
         db_table = 'Login'
         managed = False  # Não deixa o Django tentar criar/alterar a tabela
+        ordering = ['usuario']
 
     def __str__(self):
         return self.usuario

@@ -18,6 +18,7 @@ class Anotacoes(models.Model):
     Anexo5 = models.TextField(null=True, blank=True)
 
     class Meta:
+        ordering = ['ID_Anotacoes']
         db_table = "Anotacoes"
         verbose_name = "Anotação"
         verbose_name_plural = "Anotações"

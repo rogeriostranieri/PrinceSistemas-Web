@@ -66,6 +66,7 @@ class Parcelamento(models.Model):
     class Meta:
         db_table = "Parcelamentos"
         managed = False  # Mantido como False, pois a tabela já existe
+        ordering = ['id_parcel']
 
     def __str__(self):
         return self.razao_social

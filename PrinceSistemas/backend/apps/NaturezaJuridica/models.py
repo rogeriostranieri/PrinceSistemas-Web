@@ -10,3 +10,4 @@ class NaturezaJuridica(models.Model):
     class Meta:
         db_table = 'Naturezajuridica'
         managed = False
+        ordering = ['ID_Naturezajuridica']

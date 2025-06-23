@@ -52,6 +52,7 @@ class Socio(models.Model):
     class Meta:
         db_table = "Socios"
         managed = False  # Mantido como False, pois a tabela já existe
+        ordering = ['nomecompleto']
 
     def __str__(self):
         return self.nomecompleto

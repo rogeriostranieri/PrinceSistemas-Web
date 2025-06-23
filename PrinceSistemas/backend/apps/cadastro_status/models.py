@@ -5,6 +5,7 @@ class CADstatus(models.Model):
     Descricao = models.CharField(max_length=100)
 
     class Meta:
+        ordering = ['ID_CADstatus']
         db_table = 'CADstatus'
 
     def __str__(self):
