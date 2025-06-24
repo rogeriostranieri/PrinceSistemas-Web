@@ -2410,3 +2410,4 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '179.97.135.249
 [WARNING] 2025-06-24 16:48:40,023 django.request 1796 9608 Bad Request: /
 [WARNING] 2025-06-24 16:48:40,023 django.server 1796 9608 "GET / HTTP/1.1" 400 143
 [INFO] 2025-06-24 16:50:25,247 django.utils.autoreload 1796 20144 D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend\apps\socios\views.py changed, reloading.
+[INFO] 2025-06-24 16:50:35,257 django.utils.autoreload 22736 7992 Watching for file changes with StatReloader
