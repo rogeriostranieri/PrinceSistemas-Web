@@ -11,14 +11,41 @@ def index(request):
 
 @csrf_exempt
 def listar_telefones(request):
-    """Lista todos os telefones de órgãos públicos"""
-    telefones = Telefone.objects.all().values(
-        'ID_Telefones', 'Nome', 'Telefone1', 'TelefoneOutros', 'Obs', 
-        'CEP', 'Endereço', 'Numero', 'Complemento', 'Bairro', 
-        'Cidade', 'Estado', 'email', 'site', 
-        'OrgaoEstado', 'OrgaoCidade', 'OrgaoFederal'  # Use maiúsculas como no modelo
-    )
-    return JsonResponse(list(telefones), safe=False)
+    """Lista todos os telefones de órgãos públicos ou cria um novo"""
+    if request.method == 'GET':
+        telefones = Telefone.objects.all().values(
+            'ID_Telefones', 'Nome', 'Telefone1', 'TelefoneOutros', 'Obs', 
+            'CEP', 'Endereço', 'Numero', 'Complemento', 'Bairro', 
+            'Cidade', 'Estado', 'email', 'site', 
+            'OrgaoEstado', 'OrgaoCidade', 'OrgaoFederal'
+        )
+        return JsonResponse(list(telefones), safe=False)
+    
+    elif request.method == 'POST':
+        try:
+            data = json.loads(request.body)
+            telefone = Telefone(
+                Nome=data.get('Nome'),
+                Telefone1=data.get('Telefone1'),
+                TelefoneOutros=data.get('TelefoneOutros'),
+                Obs=data.get('Obs'),
+                CEP=data.get('CEP'),
+                Endereço=data.get('Endereço'),
+                Numero=data.get('Numero'),
+                Complemento=data.get('Complemento'),
+                Bairro=data.get('Bairro'),
+                Cidade=data.get('Cidade'),
+                Estado=data.get('Estado'),
+                email=data.get('email'),
+                site=data.get('site'),
+                OrgaoEstado=str(data.get('OrgaoEstado', 'false')).lower(),
+                OrgaoCidade=str(data.get('OrgaoCidade', 'false')).lower(),
+                OrgaoFederal=str(data.get('OrgaoFederal', 'false')).lower(),
+            )
+            telefone.save()
+            return JsonResponse({'message': 'Telefone criado com sucesso', 'ID_Telefones': telefone.ID_Telefones}, status=201)
+        except Exception as e:
+            return JsonResponse({'error': str(e)}, status=400)
 
 @csrf_exempt
 def telefone_detail(request, id):

@@ -43,7 +43,7 @@ cd D:\0000000000000000000000000\PrinceSistemaPY\PRINCESISTEMAS\backend
 =====================================================================================
   
 backend
-cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\backend
+cd D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend
 .\venv\Scripts\Activate.ps1
 python manage.py makemigrations
 python manage.py migrate

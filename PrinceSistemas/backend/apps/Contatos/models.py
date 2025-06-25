@@ -1,7 +1,7 @@
 from django.db import models
 
 class Contato(models.Model):
-    ID_Contatos = models.SmallIntegerField(primary_key=True, verbose_name="ID")
+    ID_Contatos = models.AutoField(primary_key=True, verbose_name="ID")
     Nome = models.TextField(blank=True, null=True, verbose_name="Nome")
     Sobrenome = models.TextField(blank=True, null=True, verbose_name="Sobrenome")
     Telefone_Residencial = models.TextField(blank=True, null=True, verbose_name="Telefone Residencial")

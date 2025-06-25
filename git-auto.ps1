@@ -8,7 +8,7 @@ chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 [Console]::InputEncoding  = [System.Text.UTF8Encoding]::new()
 
-cd "D:\0000000000000000000000000\PrinceSistemaPY"
+Set-Location -Path "D:\0000000000000000000000000\PrinceSistemaPY"
 
 if (-not (Test-Path .git)) {
     git init
