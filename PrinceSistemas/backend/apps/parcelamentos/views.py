@@ -113,10 +113,19 @@ class AvisosParcelamentosView(APIView):
             parcelamentos = (
                 Parcelamento.objects
                 .filter(Q(data_lembrete__startswith=data_formatada) | Q(para_fazer='Checked'))
-                .values('id_parcel', 'razao_social', 'cnpj', 'data_lembrete')
+                .values('id_parcel', 'razao_social', 'cnpj', 'data_lembrete', 'finalizado_empresa', 'finalizado_mes_geral', 'para_fazer')
             )
-            
-            resultados = [{"tipo": "parcelamento", **parcelamento} for parcelamento in parcelamentos]
+            # Determina status visual para cada parcelamento
+            resultados = []
+            for parcelamento in parcelamentos:
+                # Exemplo de status: Finalizado, Pendente, Para Fazer
+                if parcelamento.get('para_fazer') == 'Checked':
+                    status_str = 'Para Fazer'
+                elif parcelamento.get('finalizado_empresa') == 'Sim' or parcelamento.get('finalizado_mes_geral'):
+                    status_str = 'Finalizado'
+                else:
+                    status_str = 'Pendente'
+                resultados.append({"tipo": "parcelamento", **parcelamento, "status": status_str})
             return Response(resultados, status=status.HTTP_200_OK)
             
         except ValueError as e:

@@ -31,3 +31,21 @@ cd D:\0000000000000000000000000\PrinceSistemaPY
 npm run start-backend
 cd D:\0000000000000000000000000\PrinceSistemaPY
 npm run serve-external
+
+
+
+
+DESENVOLVIMENTO
+
+backend
+cd D:\0000000000000000000000000\PrinceSistemaPY\PrinceSistemas\backend
+.\venv\Scripts\Activate.ps1
+python manage.py makemigrations
+python manage.py migrate
+python manage.py check
+python manage.py runserver
+
+ 
+frontend = 
+cd D:\0000000000000000000000000\PrinceSistemaPY\princesistemas\frontend\app
+ng serve

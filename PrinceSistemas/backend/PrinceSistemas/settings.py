@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'apps.socios',
     'apps.parcelamentos',
     'apps.CNAE',
+    'apps.bombeirosCNAE',
     'apps.EventosEmpresa',
     'apps.NaturezaJuridica',
     'apps.Sites',

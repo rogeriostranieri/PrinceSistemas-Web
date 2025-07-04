@@ -43,6 +43,7 @@ urlpatterns = [
     path('api/', include('apps.laudos.urls')),  # Inclua as URLs do aplicativo 'laudos'
     path('api/', include('apps.parcelamentos.urls')),
     path('', include('apps.CNAE.urls')),  # <-- Adicione esta linha
+    path('api/', include('apps.bombeirosCNAE.urls')),
     path('api/integracoes/', include('apps.api_integracoes.urls')),
     path('api/empresas/', include('apps.empresas.urls')),
     # contador

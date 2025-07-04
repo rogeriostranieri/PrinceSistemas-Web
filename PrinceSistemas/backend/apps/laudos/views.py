@@ -91,6 +91,8 @@ class LaudoViewSet(viewsets.ModelViewSet):
             queryset = queryset.filter(
                 Q(razaosocial__icontains=query) | Q(cnpj__icontains=query)
             )
+
+        # Retornar o queryset sem usar .values() para permitir que o serializer funcione
         return queryset
 
     def update(self, request, *args, **kwargs):

@@ -96,6 +96,7 @@ class EmpresaViewSet(viewsets.ModelViewSet):
                 Q(razaosocial__icontains=query) | Q(cnpj__icontains=query)
             )
             logger.debug(f"Resultados encontrados: {queryset.count()}")
+        # Retorna instâncias do modelo Empresa para evitar erro no serializer
         return queryset
 
     def update(self, request, *args, **kwargs):
