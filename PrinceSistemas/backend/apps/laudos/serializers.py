@@ -172,7 +172,7 @@ class LaudoSerializer(serializers.ModelSerializer):
             if isinstance(val, str) and val.strip() in [
                 '  /  /', '  /  /    ', '  /  /  :  ', '/', '//', '///', '', 'None', 'null', '00/00/0000'
             ]:
-                data[field] = None
+                data[field] = None  # Converte para None
         return data
 
     class Meta:

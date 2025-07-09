@@ -110,7 +110,7 @@ class LaudoViewSet(viewsets.ModelViewSet):
         ]:
             valor = request.data.get(campo)
             if valor in ["", "  /  /", None, "null", "None", "00/00/0000"]:
-                request.data[campo] = None
+                request.data[campo] = None  # Converte para None
         serializer = self.get_serializer(instance, data=request.data, partial=partial)
         try:
             serializer.is_valid(raise_exception=True)

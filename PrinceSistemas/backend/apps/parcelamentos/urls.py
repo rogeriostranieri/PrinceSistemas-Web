@@ -7,6 +7,7 @@ from apps.laudos.views import LaudoViewSet
 from apps.parcelamentos.views import ParcelamentoViewSet
 from .views_mensal import ParcelamentosMensalView
 from .views import AvisosParcelamentosView
+from .views_valores import valores_campo_parcelamentos
 
 router = DefaultRouter()
 router.register(r'empresas', EmpresaViewSet)
@@ -18,4 +19,5 @@ urlpatterns = [
     path('api/', include(router.urls)),
     path('avisos-parcelamentos/', AvisosParcelamentosView.as_view(), name='avisos-parcelamentos'),
     path('parcelamentos-mensal/', ParcelamentosMensalView.as_view(), name='parcelamentos-mensal'),
+    path('parcelamentos/valores/<str:campo>/', valores_campo_parcelamentos),
 ]

@@ -6,6 +6,7 @@ from apps.laudos.views import LaudoViewSet
 from apps.parcelamentos.views import ParcelamentoViewSet
 from .views import AvisosDiaView
 from apps.laudos import views
+from .views_valores import valores_campo_laudos
 
 router = DefaultRouter()
 router.register(r'empresas', EmpresaViewSet)
@@ -17,4 +18,8 @@ urlpatterns = [
     path('api/', include(router.urls)),
     path('avisos-dia/', AvisosDiaView.as_view(), name='avisos-dia'),
     path('laudos/<int:laudo_id>/declaracao-extravio/', views.declaracao_extravio_pdf, name='declaracao_extravio_pdf')
+]
+
+urlpatterns += [
+    path('laudos/valores/<str:campo>/', valores_campo_laudos),
 ]
