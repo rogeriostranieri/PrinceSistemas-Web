@@ -17,7 +17,8 @@ router.register(r'parcelamentos', ParcelamentoViewSet)
 urlpatterns = [
     path('api/', include(router.urls)),
     path('avisos-dia/', AvisosDiaView.as_view(), name='avisos-dia'),
-    path('laudos/<int:laudo_id>/declaracao-extravio/', views.declaracao_extravio_pdf, name='declaracao_extravio_pdf')
+    path('laudos/<int:laudo_id>/declaracao-extravio/', views.declaracao_extravio_pdf, name='declaracao_extravio_pdf'),
+    path('laudos/<int:laudo_id>/declaracao-extravio-html/', views.declaracao_extravio_pdf, name='declaracao_extravio_html'),
 ]
 
 urlpatterns += [

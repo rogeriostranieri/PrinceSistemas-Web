@@ -6,28 +6,215 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Declaração de Extravio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaração de Extravio - {{ razaosocial }}</title>
     <style>
-        body { font-family: Arial, sans-serif; font-size: 13px; margin: 40px; }
-        .assinatura { margin-top: 80px; text-align: center; }
-        h2 { text-align: center; font-size: 15px; }
-        p { text-align: justify; text-indent: 40px; }
+        /* Reset e configurações básicas */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Configuração para impressão A4 */
+        @page {
+            size: A4 portrait;
+            margin: 2.5cm;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12pt;
+            line-height: 1.6;
+            color: #000;
+            background: white;
+            width: 21cm;
+            min-height: 29.7cm;
+            margin: 0 auto;
+            padding: 2.5cm;
+            position: relative;
+        }
+
+        /* Estilos para tela */
+        @media screen {
+            body {
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                margin: 20px auto;
+                background: white;
+            }
+            
+            .print-info {
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                background: #007bff;
+                color: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+                z-index: 1000;
+                cursor: pointer;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            }
+            
+            .print-info:hover {
+                background: #0056b3;
+            }
+        }
+
+        /* Ocultar info de impressão ao imprimir */
+        @media print {
+            .print-info {
+                display: none !important;
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+                box-shadow: none;
+            }
+        }
+
+        /* Cabeçalho */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .titulo {
+            font-size: 16pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        /* Conteúdo principal */
+        .conteudo {
+            text-align: justify;
+            margin-bottom: 50px;
+        }
+
+        .paragrafo {
+            margin-bottom: 20px;
+            text-indent: 2cm;
+            line-height: 1.8;
+        }
+
+        /* Data e local */
+        .data-local {
+            text-align: right;
+            margin-bottom: 80px;
+            font-weight: normal;
+        }
+
+        /* Assinatura */
+        .assinatura {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .linha-assinatura {
+            border-top: 1px solid #000;
+            width: 300px;
+            margin: 0 auto 10px auto;
+        }
+
+        .nome-assinatura {
+            font-weight: normal;
+            font-size: 11pt;
+        }
+
+        /* Rodapé com informações */
+        .rodape {
+            position: absolute;
+            bottom: 2cm;
+            left: 2.5cm;
+            right: 2.5cm;
+            font-size: 10pt;
+            color: #666;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+
+        /* Formatação de dados */
+        .destaque {
+            font-weight: bold;
+        }
+
+        /* Quebra de linha apropriada */
+        .quebra-pagina {
+            page-break-before: always;
+        }
     </style>
+    <script>
+        function imprimirDocumento() {
+            window.print();
+        }
+        
+        // Auto-impressão opcional (descomente se desejar)
+        // window.onload = function() {
+        //     setTimeout(function() {
+        //         window.print();
+        //     }, 1000);
+        // };
+    </script>
 </head>
 <body>
-    <h2>DECLARAÇÃO DE EXTRAVIO</h2>
-    <p>
-        {{ razaosocial }}, pessoa {{ tipo_pessoa }}, inscrita no {{ doc_tipo }} nº {{ doc_numero }}, CMC {{ cmc }}, com sede e foro no Município de Maringá, Estado do Paraná, na {{ endereco }}, CEP: {{ cep }}, neste ato representada pelo seu sócio/proprietário {{ requerente }}, portador(a) da Cédula de Identidade RG nº {{ rg }} expedida pela SSP {{ orgao }}, e inscrito(a) no Cadastro de Pessoas Físicas CPF sob o nº {{ cpf }}, DECLARO, para os devidos fins que o Alvará de Localização encontra-se extraviado, tornando o mesmo cancelado e sem efeito comercial.
-    </p>
-    <p>
-        Por ser verdade, firmo a presente.
-    </p>
-    <p>
-        {{ cidade }} – {{ estado }}, {{ hoje.day }} de {{ hoje|date:"F"|lower|capfirst }} de {{ hoje.year }}.
-    </p>
+    <!-- Botão de impressão (apenas na tela) -->
+    <div class="print-info" onclick="imprimirDocumento()">
+        🖨️ Clique para imprimir
+    </div>
+
+    <!-- Cabeçalho -->
+    <div class="header">
+        <h1 class="titulo">Declaração de Extravio</h1>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="conteudo">
+        <p class="paragrafo">
+            <b>{{ razaosocial }}</b>, pessoa {{ tipo_pessoa }}, 
+            inscrita no {{ doc_tipo }} nº {{ doc_numero }}{% if cmc %}, 
+            CMC {{ cmc }}{% endif %}, com sede e foro no Município de 
+            {{ cidade|default:"Maringá" }}, Estado do 
+            {{ estado|default:"Paraná" }}, na 
+            {{ endereco_completo }}{% if cep %}, 
+            CEP: {{ cep }}{% endif %}, neste ato representada pelo seu 
+            <b>Sócio/Proprietário</b> <b>{{ requerente }}</b>, portador(a) da Cédula de 
+            Identidade RG nº {{ rg }}{% if orgao %} expedida pela 
+            {{ orgao }}{% endif %}{% if estado_orgao %}/{{ estado_orgao }}{% endif %}, 
+            e inscrito(a) no Cadastro Nacional de Pessoas Jurídicas <b>CNPJ</b> sob o nº 
+            <b>{{ cnpj }}</b>, <b>DECLARO</b>, para os devidos fins 
+            que o <b>Alvará de Localização</b> encontra-se 
+            <b>extraviado</b>, tornando o mesmo 
+            <b>cancelado e sem efeito comercial</b>.
+        </p>
+
+        <p class="paragrafo">
+            Por ser verdade, firmo a presente.
+        </p>
+    </div>
+
+    <!-- Data e local -->
+    <div class="data-local">
+        {{ cidade|default:"Maringá" }} – {{ estado|default:"PR" }}, {{ hoje.day }} de {{ hoje|date:"F"|lower|capfirst }} de {{ hoje.year }}.
+    </div>
+
+    <!-- Assinatura -->
     <div class="assinatura">
-        <hr style="width:300px;">
-        {{ requerente }}
+        <div class="linha-assinatura"></div>
+        <div class="nome-assinatura">{{ requerente }}</div>
+        {% if cargo %}
+        <div class="nome-assinatura">{{ cargo }}</div>
+        {% endif %}
+    </div>
+
+    <!-- Rodapé (opcional) -->
+    <div class="rodape">
+        Documento gerado em {{ agora|date:"d/m/Y às H:i" }} | {{ razaosocial }}
     </div>
 </body>
 </html>

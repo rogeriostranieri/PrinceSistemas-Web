@@ -8,6 +8,7 @@ from .serializers import LaudoSerializer
 from rest_framework.serializers import ValidationError
 import logging
 from django.utils.timezone import make_aware
+from django.utils import timezone
 from datetime import datetime, date
 from django.db.models.functions import Cast
 from django.db.models import DateField
@@ -436,14 +437,117 @@ class AvisosLaudosView(APIView):
 
 def declaracao_extravio_pdf(request, laudo_id):
     """
-    Função substituída que não usa weasyprint.
+    Gera uma declaração de extravio em HTML otimizado para impressão A4.
+    O HTML gerado pode ser impresso diretamente no navegador como PDF.
     """
-    from .models import Laudo
-    laudo = Laudo.objects.get(pk=laudo_id)
+    logger = logging.getLogger(__name__)
     
-    return HttpResponse(
-        f"A funcionalidade de exportação para PDF do laudo '{laudo.razaosocial}' foi desativada "
-        f"pois dependia da biblioteca weasyprint. "
-        f"Por favor, use as opções de exportação para Word disponíveis.",
-        content_type='text/plain'
-    )
+    try:
+        # Busca o laudo
+        laudo = get_object_or_404(Laudo, pk=laudo_id)
+        
+        # Função para formatar CNPJ/CPF
+        def formatar_documento(doc):
+            if not doc:
+                return ""
+            
+            # Remove caracteres não numéricos
+            numeros = re.sub(r'\D', '', str(doc))
+            
+            if len(numeros) == 11:  # CPF
+                return f"{numeros[:3]}.{numeros[3:6]}.{numeros[6:9]}-{numeros[9:]}"
+            elif len(numeros) == 14:  # CNPJ
+                return f"{numeros[:2]}.{numeros[2:5]}.{numeros[5:8]}/{numeros[8:12]}-{numeros[12:]}"
+            else:
+                return numeros
+        
+        # Função para formatar CEP
+        def formatar_cep(cep):
+            if not cep:
+                return ""
+            numeros = re.sub(r'\D', '', str(cep))
+            if len(numeros) == 8:
+                return f"{numeros[:5]}-{numeros[5:]}"
+            return numeros
+        
+        # Prepara os dados para o template
+        cnpj_formatado = formatar_documento(laudo.cnpj)
+        cpf_requerente_formatado = formatar_documento(laudo.cpf_requerente)
+        cep_formatado = formatar_cep(laudo.endcep)
+        
+        # Monta endereço completo
+        endereco_parts = []
+        if laudo.endereco:
+            endereco_parts.append(laudo.endereco)
+        if laudo.endnum:
+            endereco_parts.append(f"nº {laudo.endnum}")
+        if laudo.endcomp:
+            endereco_parts.append(laudo.endcomp)
+        if laudo.endbairro:
+            endereco_parts.append(f"Bairro {laudo.endbairro}")
+        
+        endereco_completo = ", ".join(endereco_parts) if endereco_parts else "Endereço não informado"
+        
+        # Determina o tipo de pessoa e documento
+        doc_numeros = re.sub(r'\D', '', str(laudo.cnpj or ''))
+        if len(doc_numeros) == 14:
+            tipo_pessoa = "jurídica"
+            doc_tipo = "CNPJ"
+            doc_numero = cnpj_formatado
+        elif len(doc_numeros) == 11:
+            tipo_pessoa = "física"
+            doc_tipo = "CPF"
+            doc_numero = cnpj_formatado
+        else:
+            tipo_pessoa = "jurídica"
+            doc_tipo = "CNPJ"
+            doc_numero = cnpj_formatado or "não informado"
+        
+        # Contexto para o template
+        contexto = {
+            'laudo': laudo,
+            'razaosocial': laudo.razaosocial or 'Nome da empresa não informado',
+            'tipo_pessoa': tipo_pessoa,
+            'doc_tipo': doc_tipo,
+            'doc_numero': doc_numero,
+            'cmc': laudo.cmc,
+            'endereco_completo': endereco_completo,
+            'cep': cep_formatado,
+            'cidade': laudo.endcidade or 'Maringá',
+            'estado': laudo.endestado or 'Paraná',
+            'requerente': laudo.requerente or 'Nome do requerente não informado',
+            'rg': laudo.rg_requerente or 'RG não informado',
+            'orgao': laudo.orgao_rg_requerente or 'SSP',
+            'estado_orgao': laudo.estado_orgao_rg_requerente or 'PR',
+            'cpf': cpf_requerente_formatado or 'CPF não informado',
+            'hoje': timezone.now(),
+            'agora': timezone.now(),
+            'cargo': 'Sócio/Proprietário',  # Pode ser customizado se necessário
+        }
+        
+        # Renderiza o template
+        html_content = render_to_string('declaracao_extravio.html', contexto)
+        
+        # Retorna como HTML para o navegador
+        response = HttpResponse(html_content, content_type='text/html; charset=utf-8')
+        response['Content-Disposition'] = f'inline; filename="declaracao_extravio_{laudo.id_laudos}.html"'
+        
+        # Headers para melhor impressão
+        response['X-Frame-Options'] = 'SAMEORIGIN'
+        response['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+        
+        return response
+        
+    except Laudo.DoesNotExist:
+        return HttpResponse(
+            f"<h1>Erro 404</h1><p>Laudo com ID {laudo_id} não encontrado.</p>",
+            status=404,
+            content_type='text/html'
+        )
+    except Exception as e:
+        logger.error(f"Erro ao gerar declaração de extravio: {str(e)}")
+        return HttpResponse(
+            f"<h1>Erro 500</h1><p>Erro interno do servidor: {str(e)}</p>",
+            status=500,
+            content_type='text/html'
+        )
